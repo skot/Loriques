@@ -24,7 +24,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1042"
+		(property "Footprint" "Loriques:1042"
 			(at 0 0 0)
 			(effects
 				(font
@@ -178,7 +178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:NOTHING"
+		(property "Footprint" "Loriques:NOTHING"
 			(at 0 0 0)
 			(effects
 				(font
@@ -250,7 +250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:C1812"
+		(property "Footprint" "Loriques:C1812"
 			(at 0 0 0)
 			(effects
 				(font
@@ -393,7 +393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:C0402"
+		(property "Footprint" "Loriques:C0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -536,7 +536,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:0603"
+		(property "Footprint" "Loriques:0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -679,7 +679,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:0805"
+		(property "Footprint" "Loriques:0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -822,7 +822,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1206"
+		(property "Footprint" "Loriques:1206"
 			(at 0 0 0)
 			(effects
 				(font
@@ -965,7 +965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1210"
+		(property "Footprint" "Loriques:1210"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1108,7 +1108,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:CAP-PTH-SMALL"
+		(property "Footprint" "Loriques:CAP-PTH-SMALL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1251,7 +1251,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:CAP-PTH-SMALL2"
+		(property "Footprint" "Loriques:CAP-PTH-SMALL2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1394,7 +1394,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOIC127P600X175-8N"
+		(property "Footprint" "Loriques:SOIC127P600X175-8N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1612,7 +1612,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:PLCC140P350X320X210-4"
+		(property "Footprint" "Loriques:PLCC140P350X320X210-4"
 			(at 0.508 -8.636 0)
 			(effects
 				(font
@@ -1750,7 +1750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:25PK4700MEFC16X25"
+		(property "Footprint" "Loriques:25PK4700MEFC16X25"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1917,7 +1917,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:A_3216-18R"
+		(property "Footprint" "Loriques:A_3216-18R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2084,7 +2084,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:FA-238"
+		(property "Footprint" "Loriques:FA-238"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:HF_XTAL"
+		(property "Footprint" "Loriques:HF_XTAL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2446,7 +2446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:LF_XTAL"
+		(property "Footprint" "Loriques:LF_XTAL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2628,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "autonode:E22-900M30S"
+		(property "Footprint" "Loriques:E22-900M30S"
 			(at -1.27 -21.844 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:FA-238"
+		(property "Footprint" "Loriques:FA-238"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3329,7 +3329,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:0603"
+		(property "Footprint" "Loriques:0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3678,7 +3678,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:HCMA0703-2R2-R"
+		(property "Footprint" "Loriques:HCMA0703-2R2-R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4027,7 +4027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:DMB0006A"
+		(property "Footprint" "Loriques:DMB0006A"
 			(at -1.016 -11.43 0)
 			(effects
 				(font
@@ -4228,7 +4228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:JST-PH-4-SMT"
+		(property "Footprint" "Loriques:JST-PH-4-SMT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4457,7 +4457,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:JST-PH-3-SMT"
+		(property "Footprint" "Loriques:JST-PH-3-SMT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOT-223-5"
+		(property "Footprint" "Loriques:SOT-223-5"
 			(at 0 -17.018 0)
 			(effects
 				(font
@@ -4820,7 +4820,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:0806"
+		(property "Footprint" "Loriques:0806"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5169,7 +5169,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SON50P400X500X80-17T244X434N"
+		(property "Footprint" "Loriques:SON50P400X500X80-17T244X434N"
 			(at -0.254 -18.034 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06-SMD_EDGE"
+		(property "Footprint" "Loriques:1X06-SMD_EDGE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SCREWTERMINAL-3.5MM-6"
+		(property "Footprint" "Loriques:SCREWTERMINAL-3.5MM-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6235,7 +6235,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_FEMALE_LOCK.010"
+		(property "Footprint" "Loriques:1X06_FEMALE_LOCK.010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6524,7 +6524,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_LOCK"
+		(property "Footprint" "Loriques:1X06_LOCK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6813,7 +6813,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_LOCK_LONGPADS"
+		(property "Footprint" "Loriques:1X06_LOCK_LONGPADS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7102,7 +7102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_LONGPADS"
+		(property "Footprint" "Loriques:1X06_LONGPADS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7391,7 +7391,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_NO_SILK"
+		(property "Footprint" "Loriques:1X06_NO_SILK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_NO_SILK_YES_STOP"
+		(property "Footprint" "Loriques:1X06_NO_SILK_YES_STOP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7969,7 +7969,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_HOLES_ONLY"
+		(property "Footprint" "Loriques:1X06_HOLES_ONLY"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8258,7 +8258,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:MOLEX-1X6"
+		(property "Footprint" "Loriques:MOLEX-1X6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8547,7 +8547,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:MOLEX-1X6_LOCK"
+		(property "Footprint" "Loriques:MOLEX-1X6_LOCK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8836,7 +8836,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:MOLEX-1X6-RA"
+		(property "Footprint" "Loriques:MOLEX-1X6-RA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:MOLEX-1X6-RA_LOCK"
+		(property "Footprint" "Loriques:MOLEX-1X6-RA_LOCK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9414,7 +9414,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06"
+		(property "Footprint" "Loriques:1X06"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9703,7 +9703,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06-SIP_LOCK"
+		(property "Footprint" "Loriques:1X06-SIP_LOCK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9992,7 +9992,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06-SMD"
+		(property "Footprint" "Loriques:1X06-SMD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10281,7 +10281,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06-1MM"
+		(property "Footprint" "Loriques:1X06-1MM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10570,7 +10570,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06-SMD-FEMALE-V2"
+		(property "Footprint" "Loriques:1X06-SMD-FEMALE-V2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10859,7 +10859,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_SMD_STRAIGHT_ALT"
+		(property "Footprint" "Loriques:1X06_SMD_STRAIGHT_ALT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11148,7 +11148,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_SMD_STRAIGHT_COMBO"
+		(property "Footprint" "Loriques:1X06_SMD_STRAIGHT_COMBO"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11437,7 +11437,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_SMD_STRAIGHT"
+		(property "Footprint" "Loriques:1X06_SMD_STRAIGHT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11726,7 +11726,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06-SMD-FEMALE"
+		(property "Footprint" "Loriques:1X06-SMD-FEMALE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12015,7 +12015,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1X06_SMD_MALE"
+		(property "Footprint" "Loriques:1X06_SMD_MALE"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12304,7 +12304,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:BTA"
+		(property "Footprint" "Loriques:BTA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12593,7 +12593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:BTD"
+		(property "Footprint" "Loriques:BTD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12882,7 +12882,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SON40P300X300X80-15T170X230N"
+		(property "Footprint" "Loriques:SON40P300X300X80-15T170X230N"
 			(at -1.27 -42.418 0)
 			(effects
 				(font
@@ -13226,7 +13226,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOD−123FL"
+		(property "Footprint" "Loriques:SOD−123FL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13431,7 +13431,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:QFN20-ML_4X4MM"
+		(property "Footprint" "Loriques:QFN20-ML_4X4MM"
 			(at 0.762 -16.764 0)
 			(effects
 				(font
@@ -13875,7 +13875,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOD7022X160N"
+		(property "Footprint" "Loriques:SOD7022X160N"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13984,7 +13984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:MMCX-P-P-H-ST-TH1"
+		(property "Footprint" "Loriques:MMCX-P-P-H-ST-TH1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14146,7 +14146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:MS288-10F"
+		(property "Footprint" "Loriques:MS288-10F"
 			(at -1.016 -3.81 0)
 			(effects
 				(font
@@ -14225,7 +14225,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:PZ100"
+		(property "Footprint" "Loriques:PZ100"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16134,7 +16134,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:R0402"
+		(property "Footprint" "Loriques:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16339,7 +16339,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:0603-RES"
+		(property "Footprint" "Loriques:0603-RES"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16544,7 +16544,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:0805"
+		(property "Footprint" "Loriques:0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16749,7 +16749,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1206"
+		(property "Footprint" "Loriques:1206"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16954,7 +16954,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:R2010"
+		(property "Footprint" "Loriques:R2010"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17159,7 +17159,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:R2512"
+		(property "Footprint" "Loriques:R2512"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17364,7 +17364,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.3"
+		(property "Footprint" "Loriques:AXIAL-0.3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17569,7 +17569,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.3EZ"
+		(property "Footprint" "Loriques:AXIAL-0.3EZ"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17774,7 +17774,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.3-KIT"
+		(property "Footprint" "Loriques:AXIAL-0.3-KIT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -17979,7 +17979,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.5"
+		(property "Footprint" "Loriques:AXIAL-0.5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18184,7 +18184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.4"
+		(property "Footprint" "Loriques:AXIAL-0.4"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18389,7 +18389,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:1_6W-RES"
+		(property "Footprint" "Loriques:1_6W-RES"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18594,7 +18594,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.6"
+		(property "Footprint" "Loriques:AXIAL-0.6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -18799,7 +18799,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:AXIAL-0.8"
+		(property "Footprint" "Loriques:AXIAL-0.8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19004,7 +19004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:DO-214AC(SMA)"
+		(property "Footprint" "Loriques:DO-214AC(SMA)"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19161,7 +19161,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:R-PVQFN-N20"
+		(property "Footprint" "Loriques:R-PVQFN-N20"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19721,7 +19721,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SSD1306_OLED_0.91IN"
+		(property "Footprint" "Loriques:SSD1306_OLED_0.91IN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -19902,7 +19902,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:TC2050-IDC"
+		(property "Footprint" "Loriques:TC2050-IDC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20311,7 +20311,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:TC2050-IDC-NL"
+		(property "Footprint" "Loriques:TC2050-IDC-NL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20721,7 +20721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:PAD.02X.02"
+		(property "Footprint" "Loriques:PAD.02X.02"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20825,7 +20825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:PAD.03X.03"
+		(property "Footprint" "Loriques:PAD.03X.03"
 			(at 0 0 0)
 			(effects
 				(font
@@ -20929,7 +20929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:PAD.03X.04"
+		(property "Footprint" "Loriques:PAD.03X.04"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21033,7 +21033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:PAD.03X.05"
+		(property "Footprint" "Loriques:PAD.03X.05"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21137,7 +21137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:TP_15TH"
+		(property "Footprint" "Loriques:TP_15TH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21240,7 +21240,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:R-PDSO-G8_NOPAD"
+		(property "Footprint" "Loriques:R-PDSO-G8_NOPAD"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21458,7 +21458,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:WSON8"
+		(property "Footprint" "Loriques:WSON8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -21694,7 +21694,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOIC127P790X216-8N"
+		(property "Footprint" "Loriques:SOIC127P790X216-8N"
 			(at 0.508 -12.954 0)
 			(effects
 				(font
@@ -21912,7 +21912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:W3012"
+		(property "Footprint" "Loriques:W3012"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22086,7 +22086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:YFF31HC2A104MT000N"
+		(property "Footprint" "Loriques:YFF31HC2A104MT000N"
 			(at 0 0 0)
 			(effects
 				(font

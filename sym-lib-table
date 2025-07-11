@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "autonode")(type "KiCad")(uri "${KIPRJMOD}/autonode.kicad_sym")(options "")(descr ""))
+  (lib (name "Loriques")(type "KiCad")(uri "${KIPRJMOD}/Loriques.kicad_sym")(options "")(descr ""))
 )

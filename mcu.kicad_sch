@@ -1126,7 +1126,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:CAP0402"
+		(symbol "Loriques:CAP0402"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1148,7 +1148,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:C0402"
+			(property "Footprint" "Loriques:C0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1269,7 +1269,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:CAT25160VI-GT3"
+		(symbol "Loriques:CAT25160VI-GT3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1291,7 +1291,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:SOIC127P600X175-8N"
+			(property "Footprint" "Loriques:SOIC127P600X175-8N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1487,7 +1487,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:CLV1L-FKB"
+		(symbol "Loriques:CLV1L-FKB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1509,7 +1509,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:PLCC140P350X320X210-4"
+			(property "Footprint" "Loriques:PLCC140P350X320X210-4"
 				(at 0.508 -8.636 0)
 				(effects
 					(font
@@ -1625,7 +1625,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:HDC2080"
+		(symbol "Loriques:HDC2080"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1647,7 +1647,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:DMB0006A"
+			(property "Footprint" "Loriques:DMB0006A"
 				(at -1.016 -11.43 0)
 				(effects
 					(font
@@ -1826,7 +1826,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:RESISTOR0402-RES"
+		(symbol "Loriques:RESISTOR0402-RES"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1848,7 +1848,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:R0402"
+			(property "Footprint" "Loriques:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2031,111 +2031,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:TEST-POINT3X5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 3.556 -0.762 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "autonode:PAD.03X.05"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bare copper test points for troubleshooting or ICT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TEST-POINT3X5_1_0"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.302 -0.762)
-					(mid 2.54 0)
-					(end 3.302 0.762)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 180)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "autonode:TPS22975"
+		(symbol "Loriques:TPS22975"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2157,7 +2053,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:WSON8"
+			(property "Footprint" "Loriques:WSON8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2371,7 +2267,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "autonode:W25Q64FWSSIG"
+		(symbol "Loriques:W25Q64FWSSIG"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2393,7 +2289,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "autonode:SOIC127P790X216-8N"
+			(property "Footprint" "Loriques:SOIC127P790X216-8N"
 				(at 0.508 -12.954 0)
 				(effects
 					(font
@@ -7422,7 +7318,7 @@
 			(uuid "be65b142-6454-4795-ba37-cfa0aea891ed")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP1")
 					(unit 1)
@@ -7431,7 +7327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:W25Q64FWSSIG")
+		(lib_id "Loriques:W25Q64FWSSIG")
 		(at 283.21 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7457,7 +7353,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOIC127P790X216-8N"
+		(property "Footprint" "Loriques:SOIC127P790X216-8N"
 			(at 283.718 63.754 0)
 			(effects
 				(font
@@ -7536,7 +7432,7 @@
 			(uuid "4b959fae-1b37-40cd-8227-326e2fda3438")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "IC14")
 					(unit 1)
@@ -7570,7 +7466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:SW_TL3330AF130QG_EWI"
+		(property "Footprint" "Loriques:SW_TL3330AF130QG_EWI"
 			(at 119.38 151.13 0)
 			(effects
 				(font
@@ -7628,7 +7524,7 @@
 			(uuid "340adcbc-6cb5-468e-937e-e2a839e9b601")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "SW2")
 					(unit 1)
@@ -7708,7 +7604,7 @@
 			(uuid "2058583c-378b-4165-a2e0-a053bdf86eec")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "J3")
 					(unit 1)
@@ -7717,7 +7613,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 168.91 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7797,7 +7693,7 @@
 			(uuid "9f81af05-5f09-43cb-928d-cc4399db286e")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R22")
 					(unit 1)
@@ -7806,7 +7702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CLV1L-FKB")
+		(lib_id "Loriques:CLV1L-FKB")
 		(at 186.69 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7832,7 +7728,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:PLCC140P350X320X210-4"
+		(property "Footprint" "Loriques:PLCC140P350X320X210-4"
 			(at 187.198 46.736 0)
 			(effects
 				(font
@@ -7899,7 +7795,7 @@
 			(uuid "8fc47470-4421-46b7-a1ba-13a2c578169f")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "LED0")
 					(unit 1)
@@ -7975,7 +7871,7 @@
 			(uuid "2f4cd5dc-1864-4337-ad5c-c3ba292b10c1")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP9")
 					(unit 1)
@@ -7984,7 +7880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CAP0402")
+		(lib_id "Loriques:CAP0402")
 		(at 217.17 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8064,7 +7960,7 @@
 			(uuid "02dcfddf-d97f-4c3f-828b-64e4b22cc54a")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C60")
 					(unit 1)
@@ -8073,7 +7969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:TEST-POINT3X5")
+		(lib_id "Connector:TestPoint")
 		(at 222.25 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8100,7 +7996,25 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:PAD.03X.05"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -8109,29 +8023,11 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bare copper test points for troubleshooting or ICT"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "0"
+		(pin "1"
 			(uuid "b644e3a5-162f-4844-a3eb-7bf2e5c74663")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "S_3V1")
 					(unit 1)
@@ -8167,7 +8063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "autonode:USB_C_Receptacle_GCT_USB4105-xx-A"
+		(property "Footprint" "Loriques:USB_C_Receptacle_GCT_USB4105-xx-A"
 			(at 276.86 157.48 0)
 			(effects
 				(font
@@ -8252,7 +8148,7 @@
 			(uuid "c9d884c1-8b41-414e-bd8f-a0cc9144fa21")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "J7")
 					(unit 1)
@@ -8346,7 +8242,7 @@
 			(uuid "15855aa6-fcf4-4250-81df-0fc7cc7417bd")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R4")
 					(unit 1)
@@ -8422,7 +8318,7 @@
 			(uuid "5c0a3c08-402c-4f37-adc0-389aeca7a62b")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP2")
 					(unit 1)
@@ -8518,7 +8414,7 @@
 			(uuid "6496e3fe-2371-41d9-b0c9-44a652607e66")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C1")
 					(unit 1)
@@ -8606,7 +8502,7 @@
 			(uuid "05bc96a4-3796-4cd7-92c5-f115815934d5")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R1")
 					(unit 1)
@@ -8615,7 +8511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:HDC2080")
+		(lib_id "Loriques:HDC2080")
 		(at 82.55 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8641,7 +8537,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:DMB0006A"
+		(property "Footprint" "Loriques:DMB0006A"
 			(at 81.534 49.53 0)
 			(effects
 				(font
@@ -8690,7 +8586,7 @@
 			(uuid "494d7f8d-33b6-4031-94b0-d57ce342d72b")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "IC3")
 					(unit 1)
@@ -8699,7 +8595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CAP0402")
+		(lib_id "Loriques:CAP0402")
 		(at 237.49 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8779,7 +8675,7 @@
 			(uuid "65619627-c4c9-4003-aeb3-8ee6cacf620c")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C9")
 					(unit 1)
@@ -8788,7 +8684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 67.31 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8848,7 +8744,7 @@
 			(uuid "f34cc822-b03f-4577-8787-88077a327bf4")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R48")
 					(unit 1)
@@ -8857,7 +8753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 265.43 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8937,7 +8833,7 @@
 			(uuid "53fb3833-b46c-4ef3-96fa-195dca8719b7")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R13")
 					(unit 1)
@@ -8971,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "autonode:ESP32-S3-WROOM-1"
+		(property "Footprint" "Loriques:ESP32-S3-WROOM-1"
 			(at 163.83 223.52 0)
 			(effects
 				(font
@@ -9140,7 +9036,7 @@
 			(uuid "292cc1d2-2c4e-42e3-a5ba-b9a7bb6a895c")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "U1")
 					(unit 1)
@@ -9175,7 +9071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:SW_TL3330AF130QG_EWI"
+		(property "Footprint" "Loriques:SW_TL3330AF130QG_EWI"
 			(at 80.01 151.13 0)
 			(effects
 				(font
@@ -9233,7 +9129,7 @@
 			(uuid "4db9df49-f69b-44a9-8355-c488bcc85c8c")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "SW1")
 					(unit 1)
@@ -9242,7 +9138,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:TPS22975")
+		(lib_id "Loriques:TPS22975")
 		(at 189.23 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9268,7 +9164,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:WSON8"
+		(property "Footprint" "Loriques:WSON8"
 			(at 189.23 77.47 0)
 			(effects
 				(font
@@ -9323,7 +9219,7 @@
 			(uuid "3b2eff07-5ef1-46c6-bb60-2e31db6354d0")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "IC19")
 					(unit 1)
@@ -9332,7 +9228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 209.55 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9412,7 +9308,7 @@
 			(uuid "37a88c18-2219-4d0b-b06b-314fd838b59b")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R17")
 					(unit 1)
@@ -9506,7 +9402,7 @@
 			(uuid "ac45e9b3-ccd0-43a6-8037-34362c781d7e")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R2")
 					(unit 1)
@@ -9542,7 +9438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "autonode:PinHeader_1x04_P2.54mm_Vertical_shifted"
+		(property "Footprint" "Loriques:PinHeader_1x04_P2.54mm_Vertical_shifted"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -9582,7 +9478,7 @@
 			(uuid "b14f8df0-e846-4990-ab7b-955ebb76f3e0")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "J4")
 					(unit 1)
@@ -9591,7 +9487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 77.47 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9651,7 +9547,7 @@
 			(uuid "27a0630f-54f0-4db0-bc57-0feeca3e727e")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R49")
 					(unit 1)
@@ -9660,7 +9556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CAP0402")
+		(lib_id "Loriques:CAP0402")
 		(at 118.11 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9740,7 +9636,7 @@
 			(uuid "b78dc838-3a3d-401e-89f2-6ef923e3be4a")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C23")
 					(unit 1)
@@ -9749,7 +9645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CAT25160VI-GT3")
+		(lib_id "Loriques:CAT25160VI-GT3")
 		(at 280.67 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9775,7 +9671,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:SOIC127P600X175-8N"
+		(property "Footprint" "Loriques:SOIC127P600X175-8N"
 			(at 280.67 86.36 0)
 			(effects
 				(font
@@ -9827,7 +9723,7 @@
 			(uuid "70e5c131-1c64-498c-a5c5-980232e869ea")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "IC5")
 					(unit 1)
@@ -9903,7 +9799,7 @@
 			(uuid "1d1097af-e62f-4415-b951-c02c77ba3c71")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP7")
 					(unit 1)
@@ -9912,7 +9808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 262.89 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9992,7 +9888,7 @@
 			(uuid "2122301d-d7e2-4aef-9dfd-2ff78b3d85bb")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R5")
 					(unit 1)
@@ -10001,7 +9897,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CAP0402")
+		(lib_id "Loriques:CAP0402")
 		(at 237.49 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10081,7 +9977,7 @@
 			(uuid "5ad45943-b7e9-475f-963f-27671576783e")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C20")
 					(unit 1)
@@ -10116,7 +10012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "autonode:FPC-SMD_P0.50-8P_FGS-XJ-H2.0"
+		(property "Footprint" "Loriques:FPC-SMD_P0.50-8P_FGS-XJ-H2.0"
 			(at 268.986 220.726 0)
 			(effects
 				(font
@@ -10201,7 +10097,7 @@
 			(uuid "8d951c8c-ad89-4cdf-9d1a-4fe406a152bf")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "J6")
 					(unit 1)
@@ -10210,7 +10106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:TEST-POINT3X5")
+		(lib_id "Connector:TestPoint")
 		(at 163.83 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10237,7 +10133,25 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "autonode:PAD.03X.05"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
 			(at 163.83 82.55 0)
 			(effects
 				(font
@@ -10246,29 +10160,11 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bare copper test points for troubleshooting or ICT"
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "0"
+		(pin "1"
 			(uuid "b36524a6-7869-456c-811f-e617f0c2e7a4")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP3")
 					(unit 1)
@@ -10304,7 +10200,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "autonode:JST-PH-3-SMT"
+		(property "Footprint" "Loriques:JST-PH-3-SMT"
 			(at 342.9 139.7 0)
 			(effects
 				(font
@@ -10341,7 +10237,7 @@
 			(uuid "6acc2580-2426-4d53-b0a7-f45e103df370")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "J1")
 					(unit 1)
@@ -10350,7 +10246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:CAP0402")
+		(lib_id "Loriques:CAP0402")
 		(at 148.59 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10430,7 +10326,7 @@
 			(uuid "86871f23-0479-4a51-a2ca-1e6fd77da544")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C59")
 					(unit 1)
@@ -10526,7 +10422,7 @@
 			(uuid "e06cd444-c68c-44db-9d13-d65b161ba6f8")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "C2")
 					(unit 1)
@@ -10602,7 +10498,7 @@
 			(uuid "905606d5-1831-4094-92b6-bd6f9a3cab0f")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP5")
 					(unit 1)
@@ -10678,7 +10574,7 @@
 			(uuid "0f696bba-0f8e-4c9e-b449-e4ffa1ba620d")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP4")
 					(unit 1)
@@ -10687,7 +10583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "autonode:RESISTOR0402-RES")
+		(lib_id "Loriques:RESISTOR0402-RES")
 		(at 209.55 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10767,7 +10663,7 @@
 			(uuid "22ba10eb-3a1a-4f50-b2b3-7241e0aed7e7")
 		)
 		(instances
-			(project "AutoNode"
+			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "R16")
 					(unit 1)
