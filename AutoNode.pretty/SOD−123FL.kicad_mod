@@ -1,17 +1,17 @@
 (footprint "SOD−123FL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.1 -1.6 0)
+		(at -1.919 -1.031 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f9cf729e-f4c5-4d02-ac4a-0ec6e85048e1")
 		(effects
 			(font
-				(size 0.373888 0.373888)
-				(thickness 0.032512)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -29,18 +29,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" "SOD−123FL"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d9efe109-c8a7-4ef2-9322-5dd682b5cf73")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -138,7 +128,7 @@
 	(pad "A" smd rect
 		(at 1.475 0)
 		(size 1.22 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "8e738ae2-513d-4726-9e36-44293679e1ae")
@@ -146,9 +136,10 @@
 	(pad "K" smd rect
 		(at -1.475 0)
 		(size 1.22 1.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "9d3ba2cf-b6bc-4818-afdd-e023200a0c2b")
 	)
+	(embedded_fonts no)
 )
