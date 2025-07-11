@@ -4932,8 +4932,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp38691-adj.pdf"
+			(at 0.762 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,12 +4950,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "PARTNO" "LP38693MP-ADJ/NOPB"
+			(at 0.762 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DK" "LP38693MP-ADJ/NOPBCT-ND"
+			(at 0.762 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "LP38691-ADJ_1_0"
@@ -13707,8 +13717,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73871-Data-Sheet-20002090E.pdf"
+			(at 0.508 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13718,6 +13728,24 @@
 		)
 		(property "Description" "Microchip Li Battery Charger"
 			(at 0.762 -20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP73871-2CCI/ML"
+			(at 0.508 -24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MCP73871-2CCI/ML-ND"
+			(at 0.508 -24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19474,7 +19502,7 @@
 						)
 					)
 				)
-				(number "P$1"
+				(number "1"
 					(effects
 						(font
 							(size 0 0)
@@ -19492,7 +19520,7 @@
 						)
 					)
 				)
-				(number "P$2"
+				(number "2"
 					(effects
 						(font
 							(size 0 0)
@@ -19510,7 +19538,7 @@
 						)
 					)
 				)
-				(number "P$4"
+				(number "4"
 					(effects
 						(font
 							(size 0 0)
@@ -19528,7 +19556,7 @@
 						)
 					)
 				)
-				(number "P$6"
+				(number "6"
 					(effects
 						(font
 							(size 0 0)
@@ -19546,7 +19574,7 @@
 						)
 					)
 				)
-				(number "P$8"
+				(number "8"
 					(effects
 						(font
 							(size 0 0)
@@ -19564,7 +19592,7 @@
 						)
 					)
 				)
-				(number "P$19"
+				(number "19"
 					(effects
 						(font
 							(size 0 0)
@@ -19582,7 +19610,7 @@
 						)
 					)
 				)
-				(number "P$11"
+				(number "11"
 					(effects
 						(font
 							(size 0 0)
@@ -19600,7 +19628,7 @@
 						)
 					)
 				)
-				(number "P$13"
+				(number "13"
 					(effects
 						(font
 							(size 0 0)
@@ -19618,7 +19646,7 @@
 						)
 					)
 				)
-				(number "P$15"
+				(number "15"
 					(effects
 						(font
 							(size 0 0)
@@ -19636,7 +19664,7 @@
 						)
 					)
 				)
-				(number "P$17"
+				(number "17"
 					(effects
 						(font
 							(size 0 0)
@@ -19654,7 +19682,7 @@
 						)
 					)
 				)
-				(number "P$20"
+				(number "20"
 					(effects
 						(font
 							(size 0 0)
@@ -19672,7 +19700,7 @@
 						)
 					)
 				)
-				(number "P$10"
+				(number "10"
 					(effects
 						(font
 							(size 0 0)
@@ -19690,115 +19718,7 @@
 						)
 					)
 				)
-				(number "P$21"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$22"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$23"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$24"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$25"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$26"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 -20.32 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$27"
+				(number "21"
 					(effects
 						(font
 							(size 0 0)
@@ -19816,7 +19736,7 @@
 						)
 					)
 				)
-				(number "P$18"
+				(number "18"
 					(effects
 						(font
 							(size 0 0)
@@ -19834,7 +19754,7 @@
 						)
 					)
 				)
-				(number "P$16"
+				(number "16"
 					(effects
 						(font
 							(size 0 0)
@@ -19852,7 +19772,7 @@
 						)
 					)
 				)
-				(number "P$14"
+				(number "14"
 					(effects
 						(font
 							(size 0 0)
@@ -19870,7 +19790,7 @@
 						)
 					)
 				)
-				(number "P$12"
+				(number "12"
 					(effects
 						(font
 							(size 0 0)
@@ -19888,7 +19808,7 @@
 						)
 					)
 				)
-				(number "P$9"
+				(number "9"
 					(effects
 						(font
 							(size 0 0)
@@ -19906,7 +19826,7 @@
 						)
 					)
 				)
-				(number "P$7"
+				(number "7"
 					(effects
 						(font
 							(size 0 0)
@@ -19924,7 +19844,7 @@
 						)
 					)
 				)
-				(number "P$5"
+				(number "5"
 					(effects
 						(font
 							(size 0 0)
@@ -19942,7 +19862,7 @@
 						)
 					)
 				)
-				(number "P$3"
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -21498,7 +21418,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPS2013A"
 			(at -7.62 -7.62 0)
 			(effects
 				(font
@@ -21508,7 +21428,7 @@
 			)
 		)
 		(property "Footprint" "Loriques:R-PDSO-G8_NOPAD"
-			(at 0 0 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21516,8 +21436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2010a.pdf"
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21526,7 +21446,7 @@
 			)
 		)
 		(property "Description" "IC 2.2A POWER DIST SWITCH 8-SOIC"
-			(at 0 0 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21534,12 +21454,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "PARTNO" "TPS2013AD"
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-2558-5-ND"
+			(at 0 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "TPS2013A_1_0"

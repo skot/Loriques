@@ -1292,7 +1292,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -1310,7 +1310,7 @@
 							)
 						)
 					)
-					(number "P$2"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -1328,7 +1328,7 @@
 							)
 						)
 					)
-					(number "P$4"
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -1346,7 +1346,7 @@
 							)
 						)
 					)
-					(number "P$6"
+					(number "6"
 						(effects
 							(font
 								(size 0 0)
@@ -1364,7 +1364,7 @@
 							)
 						)
 					)
-					(number "P$8"
+					(number "8"
 						(effects
 							(font
 								(size 0 0)
@@ -1382,7 +1382,7 @@
 							)
 						)
 					)
-					(number "P$19"
+					(number "19"
 						(effects
 							(font
 								(size 0 0)
@@ -1400,7 +1400,7 @@
 							)
 						)
 					)
-					(number "P$11"
+					(number "11"
 						(effects
 							(font
 								(size 0 0)
@@ -1418,7 +1418,7 @@
 							)
 						)
 					)
-					(number "P$13"
+					(number "13"
 						(effects
 							(font
 								(size 0 0)
@@ -1436,7 +1436,7 @@
 							)
 						)
 					)
-					(number "P$15"
+					(number "15"
 						(effects
 							(font
 								(size 0 0)
@@ -1454,7 +1454,7 @@
 							)
 						)
 					)
-					(number "P$17"
+					(number "17"
 						(effects
 							(font
 								(size 0 0)
@@ -1472,7 +1472,7 @@
 							)
 						)
 					)
-					(number "P$20"
+					(number "20"
 						(effects
 							(font
 								(size 0 0)
@@ -1490,7 +1490,7 @@
 							)
 						)
 					)
-					(number "P$10"
+					(number "10"
 						(effects
 							(font
 								(size 0 0)
@@ -1508,115 +1508,7 @@
 							)
 						)
 					)
-					(number "P$21"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$22"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$23"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$24"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$25"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$26"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -20.32 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$27"
+					(number "21"
 						(effects
 							(font
 								(size 0 0)
@@ -1634,7 +1526,7 @@
 							)
 						)
 					)
-					(number "P$18"
+					(number "18"
 						(effects
 							(font
 								(size 0 0)
@@ -1652,7 +1544,7 @@
 							)
 						)
 					)
-					(number "P$16"
+					(number "16"
 						(effects
 							(font
 								(size 0 0)
@@ -1670,7 +1562,7 @@
 							)
 						)
 					)
-					(number "P$14"
+					(number "14"
 						(effects
 							(font
 								(size 0 0)
@@ -1688,7 +1580,7 @@
 							)
 						)
 					)
-					(number "P$12"
+					(number "12"
 						(effects
 							(font
 								(size 0 0)
@@ -1706,7 +1598,7 @@
 							)
 						)
 					)
-					(number "P$9"
+					(number "9"
 						(effects
 							(font
 								(size 0 0)
@@ -1724,7 +1616,7 @@
 							)
 						)
 					)
-					(number "P$7"
+					(number "7"
 						(effects
 							(font
 								(size 0 0)
@@ -1742,7 +1634,7 @@
 							)
 						)
 					)
-					(number "P$5"
+					(number "5"
 						(effects
 							(font
 								(size 0 0)
@@ -1760,7 +1652,7 @@
 							)
 						)
 					)
-					(number "P$3"
+					(number "3"
 						(effects
 							(font
 								(size 0 0)
@@ -1789,25 +1681,25 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at -7.62 8.382 0)
+				(at -7.874 8.128 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -7.62 -10.16 0)
+			(property "Value" "TPS22975"
+				(at 1.016 -9.652 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
 			(property "Footprint" "Loriques:WSON8"
-				(at 0 0 0)
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1815,8 +1707,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22975.pdf"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1824,8 +1716,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TPS22975\nLOAD SWITCH N-CH 6A 8WSON"
-				(at 0 0 0)
+			(property "Description" "LOAD SWITCH N-CH 6A 8WSON"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1833,12 +1725,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "PARTNO" "TPS22975DSGR"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "DK" "296-47228-1-ND"
+				(at 0 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TPS22975_1_0"
@@ -4996,86 +4898,68 @@
 				(hide yes)
 			)
 		)
-		(pin "P$1"
+		(pin "5"
 			(uuid "d099de09-b290-4950-919a-db16f29a3d9a")
 		)
-		(pin "P$10"
+		(pin "21"
 			(uuid "c5db08ae-9a01-4f23-a82e-a9dead94077c")
 		)
-		(pin "P$11"
+		(pin "18"
 			(uuid "a6bd86e6-3673-4362-b696-36b53d490a8f")
 		)
-		(pin "P$12"
+		(pin "20"
 			(uuid "282e5cb0-3b56-41b8-b364-21f1fa392ee9")
 		)
-		(pin "P$13"
+		(pin "10"
 			(uuid "53283daa-dd8c-4a65-8772-8f1ddd2aca81")
 		)
-		(pin "P$14"
+		(pin "16"
 			(uuid "24eb0622-ad15-4a07-be20-2c36d6f18b87")
 		)
-		(pin "P$15"
+		(pin "14"
 			(uuid "ff72b84a-bc23-471c-bac2-df584ec4ff92")
 		)
-		(pin "P$16"
+		(pin "12"
 			(uuid "ef2d89df-4ccb-44fa-adab-e0c0a38da32a")
 		)
-		(pin "P$17"
+		(pin "3"
 			(uuid "8c8ce0be-9cb3-44d0-8815-b886580fd110")
 		)
-		(pin "P$18"
+		(pin "9"
 			(uuid "b822abf9-d1e0-4ecc-a4d7-912da58fd50a")
 		)
-		(pin "P$19"
+		(pin "7"
 			(uuid "c18a6118-ef71-43c9-9eae-e28aa5a140e3")
 		)
-		(pin "P$2"
+		(pin "1"
 			(uuid "8c2b091d-9107-42fc-8c66-4a90d9a74b49")
 		)
-		(pin "P$20"
+		(pin "2"
 			(uuid "6f41de3a-1b10-44ca-a188-41f2650e2ee9")
 		)
-		(pin "P$21"
+		(pin "4"
 			(uuid "14f8adfb-efb4-4312-a1bf-dba292fe7d89")
 		)
-		(pin "P$22"
+		(pin "6"
 			(uuid "4779fa2e-b8d7-401f-897d-64b12f1ddf66")
 		)
-		(pin "P$23"
+		(pin "8"
 			(uuid "8b3226d7-c3c0-42ca-a828-ad5bd377129d")
 		)
-		(pin "P$24"
+		(pin "19"
 			(uuid "7dd11945-d48f-40de-9846-4b6dc7cba4c4")
 		)
-		(pin "P$25"
+		(pin "11"
 			(uuid "773daaa7-801f-4859-9426-f7d77b04a7ea")
 		)
-		(pin "P$26"
+		(pin "13"
 			(uuid "23fc0de8-a165-4029-8b1f-2559f0d1946b")
 		)
-		(pin "P$27"
+		(pin "15"
 			(uuid "7074fe36-8d13-4758-b2f4-fc5bcb370276")
 		)
-		(pin "P$3"
+		(pin "17"
 			(uuid "bdeddbb0-f459-4ccb-9076-f13bfa7981a4")
-		)
-		(pin "P$4"
-			(uuid "32794b57-ee1d-403c-af3f-5e0296adb687")
-		)
-		(pin "P$5"
-			(uuid "fbf0d666-3a8d-4d63-bd61-25b696d6f6ff")
-		)
-		(pin "P$6"
-			(uuid "790cf4f6-6482-417c-be30-f1456a8f7fd4")
-		)
-		(pin "P$7"
-			(uuid "80fb9847-6e07-4555-be8c-896809ba3c10")
-		)
-		(pin "P$8"
-			(uuid "4c61e5c9-3e74-40cb-87e5-ba30aa2ae558")
-		)
-		(pin "P$9"
-			(uuid "02ee859b-b8b8-4787-88a7-d6f5fbd1ff6d")
 		)
 		(instances
 			(project "Loriques"
@@ -5478,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22975.pdf"
 			(at 130.81 85.09 0)
 			(effects
 				(font
@@ -5487,8 +5371,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TPS22975\nLOAD SWITCH N-CH 6A 8WSON"
+		(property "Description" "LOAD SWITCH N-CH 6A 8WSON"
 			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPS22975DSGR"
+			(at 130.81 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-47228-1-ND"
+			(at 130.81 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)

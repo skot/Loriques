@@ -130,6 +130,17 @@
 		(layer "F.Paste")
 		(uuid "d7708a56-d656-49ef-ae8f-8186ffe55a94")
 	)
+	(fp_rect
+		(start -1.295 -1.177)
+		(end 1.294 1.177)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "406d7d7a-4a1a-4806-9d5f-f66e1e9412ee")
+	)
 	(pad "1" smd rect
 		(at -0.95 -0.75)
 		(size 0.5 0.25)

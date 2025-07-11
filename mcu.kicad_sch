@@ -1697,25 +1697,25 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at -7.62 8.382 0)
+				(at -7.874 8.128 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -7.62 -10.16 0)
+			(property "Value" "TPS22975"
+				(at 1.016 -9.652 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
 			(property "Footprint" "Loriques:WSON8"
-				(at 0 0 0)
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1723,8 +1723,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22975.pdf"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1732,8 +1732,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TPS22975\nLOAD SWITCH N-CH 6A 8WSON"
-				(at 0 0 0)
+			(property "Description" "LOAD SWITCH N-CH 6A 8WSON"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1741,12 +1741,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "PARTNO" "TPS22975DSGR"
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "DK" "296-47228-1-ND"
+				(at 0 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TPS22975_1_0"
@@ -3950,10 +3960,6 @@
 		(uuid "317fcc48-4393-445a-94f5-f8f07476b579")
 	)
 	(no_connect
-		(at 107.95 203.2)
-		(uuid "32d9d5ed-cddd-46a4-bdac-f31310c69d25")
-	)
-	(no_connect
 		(at 96.52 30.48)
 		(uuid "4caff14c-b76c-4b01-92ab-5014ccc164e1")
 	)
@@ -3966,10 +3972,6 @@
 		(uuid "8538710c-328b-4ea0-83a2-d3634b9aecb9")
 	)
 	(no_connect
-		(at 107.95 205.74)
-		(uuid "8b8ce239-e612-42af-ade1-68d613af5dcc")
-	)
-	(no_connect
 		(at 265.43 170.18)
 		(uuid "a294954a-da73-4002-9e8f-ac46cd9f27f4")
 	)
@@ -3980,10 +3982,6 @@
 	(no_connect
 		(at 222.25 195.58)
 		(uuid "b7b879a5-c0cd-42ec-b5a5-4da937156033")
-	)
-	(no_connect
-		(at 107.95 200.66)
-		(uuid "ce16c5da-4020-4ed8-b05c-2e5056a0b1ca")
 	)
 	(no_connect
 		(at 265.43 142.24)
@@ -4371,6 +4369,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 200.66) (xy 107.95 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bff9e66-aba1-4ae4-9759-5aac21b32d66")
+	)
+	(wire
+		(pts
 			(xy 222.25 170.18) (xy 243.84 170.18)
 		)
 		(stroke
@@ -4428,6 +4436,16 @@
 			(type default)
 		)
 		(uuid "567cebbe-7fcc-4803-b537-94fc58d0e1fd")
+	)
+	(wire
+		(pts
+			(xy 86.36 205.74) (xy 107.95 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570643df-c5c4-4214-a231-7e5bb6437caf")
 	)
 	(wire
 		(pts
@@ -4698,6 +4716,16 @@
 			(type default)
 		)
 		(uuid "9a27ec38-2e8d-4692-b7cd-44006e4bf6f8")
+	)
+	(wire
+		(pts
+			(xy 86.36 203.2) (xy 107.95 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce27601-f37c-4397-a82a-af06bfde615b")
 	)
 	(wire
 		(pts
@@ -5389,6 +5417,16 @@
 		)
 		(uuid "962abab6-0baa-4bcd-8159-2403d2ac3d5b")
 	)
+	(label "LED0R"
+		(at 86.36 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d7e874b-1eb2-4589-99e6-8e6a3a07be96")
+	)
 	(label "3V3"
 		(at 64.77 30.48 0)
 		(effects
@@ -5499,6 +5537,16 @@
 		)
 		(uuid "b44ae1eb-0bc3-4028-9c8f-a7757ec50e31")
 	)
+	(label "LED0G"
+		(at 86.36 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4cc9315-a8d5-443a-a97b-0c88de6ea01f")
+	)
 	(label "GND"
 		(at 82.55 95.25 0)
 		(effects
@@ -5588,6 +5636,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1588863-99f4-4aaf-92d8-6d2c1ae82e91")
+	)
+	(label "LED0B"
+		(at 86.36 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f743f082-11b0-4bb7-88ce-7e5e2f99ed82")
 	)
 	(label "LED0G"
 		(at 219.71 43.18 0)
@@ -7350,7 +7408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22975.pdf"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -7359,8 +7417,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TPS22975\nLOAD SWITCH N-CH 6A 8WSON"
+		(property "Description" "LOAD SWITCH N-CH 6A 8WSON"
 			(at 189.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPS22975DSGR"
+			(at 189.23 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-47228-1-ND"
+			(at 189.23 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)

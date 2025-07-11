@@ -171,4 +171,15 @@
 		(uuid "b52b015e-4b1d-4249-b36c-7d1758d10de4")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/TPS2013AD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

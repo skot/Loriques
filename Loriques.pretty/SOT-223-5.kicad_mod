@@ -95,16 +95,18 @@
 		(layer "F.SilkS")
 		(uuid "b32c4961-7b2f-4dc8-abd9-8c3bc9603743")
 	)
-	(fp_circle
-		(center -2.2 4.6)
-		(end -1.976394 4.6)
+	(fp_poly
+		(pts
+			(xy -3.453 2.03757) (xy -3.453 -2.076) (xy -1.83 -2.076) (xy -1.83 -4.041) (xy 1.842744 -4.041) (xy 1.835744 -2.076)
+			(xy 3.471 -2.076) (xy 3.471 2.042) (xy 2.88 2.042) (xy 2.889 4.05) (xy -2.889 4.05) (xy -2.889 2.04722)
+		)
 		(stroke
-			(width 0.1524)
+			(width 0.05)
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
-		(uuid "f49edd59-cd62-4c4e-9eb5-a2368436c1c2")
+		(layer "F.CrtYd")
+		(uuid "58de4437-1173-4d27-a027-5cef7c8ed107")
 	)
 	(pad "1" smd rect
 		(at -2.25 3.15 90)
@@ -147,4 +149,15 @@
 		(uuid "e330a851-be2e-4c63-9821-076c326aeb02")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/LP38693MP-ADJ_NOPB.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

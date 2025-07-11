@@ -478,6 +478,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Filled_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Zener_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Loriques:18650_1042"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1164,8 +1314,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp38691-adj.pdf"
+				(at 0.762 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1182,12 +1332,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "PARTNO" "LP38693MP-ADJ/NOPB"
+				(at 0.762 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "DK" "LP38693MP-ADJ/NOPBCT-ND"
+				(at 0.762 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "LP38691-ADJ_1_0"
@@ -1877,8 +2037,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73871-Data-Sheet-20002090E.pdf"
+				(at 0.508 -24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1888,6 +2048,24 @@
 			)
 			(property "Description" "Microchip Li Battery Charger"
 				(at 0.762 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" "MCP73871-2CCI/ML"
+				(at 0.508 -24.638 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" "MCP73871-2CCI/ML-ND"
+				(at 0.508 -24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2700,163 +2878,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Loriques:SMAJ5.0A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -5.08 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Loriques:DO-214AC(SMA)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMAJ5.0A_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.778 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -2.54 0 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 0)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "K"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Loriques:TPS2013A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2870,7 +2891,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "TPS2013A"
 				(at -7.62 -7.62 0)
 				(effects
 					(font
@@ -2880,7 +2901,7 @@
 				)
 			)
 			(property "Footprint" "Loriques:R-PDSO-G8_NOPAD"
-				(at 0 0 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2888,8 +2909,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2010a.pdf"
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2898,7 +2919,7 @@
 				)
 			)
 			(property "Description" "IC 2.2A POWER DIST SWITCH 8-SOIC"
-				(at 0 0 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2906,12 +2927,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "PARTNO" "TPS2013AD"
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "DK" "296-2558-5-ND"
+				(at 0 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TPS2013A_1_0"
@@ -3589,12 +3620,6 @@
 		(uuid "04d531d7-b0ca-4a62-b970-38238148eba8")
 	)
 	(junction
-		(at 139.7 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bc1cdca-f4a4-460e-953a-27073f6737cc")
-	)
-	(junction
 		(at 200.66 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3703,10 +3728,22 @@
 		(uuid "57053824-d123-4522-ad47-253d7459ea56")
 	)
 	(junction
+		(at 326.39 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58235a7e-b0b3-4f69-8a73-78d00dde4cf0")
+	)
+	(junction
 		(at 281.94 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e27f4a8-f9f2-41e9-9b0a-f8eec6d4c486")
+	)
+	(junction
+		(at 139.7 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f29857c-cb1c-429f-8187-8a94c9624131")
 	)
 	(junction
 		(at 340.36 149.86)
@@ -3731,12 +3768,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "688228a4-1a31-433c-ac02-6bf60a5f6658")
-	)
-	(junction
-		(at 139.7 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7899cf5b-3cb5-466d-93b4-9e35b8e645f4")
 	)
 	(junction
 		(at 58.42 116.84)
@@ -3823,6 +3854,12 @@
 		(uuid "b3e6bca6-8ac8-4b24-864b-3e93ca6d365b")
 	)
 	(junction
+		(at 326.39 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6e8d8c3-4f66-484e-b1a6-250d642e012f")
+	)
+	(junction
 		(at 266.7 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3847,16 +3884,10 @@
 		(uuid "c58d5422-6b10-456e-9b08-2f87135ad619")
 	)
 	(junction
-		(at 325.12 116.84)
+		(at 139.7 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce4ab844-4c3e-4474-80ec-d1bdb98cf0ed")
-	)
-	(junction
-		(at 325.12 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d82ee963-51c3-41a0-8b43-441ece390b04")
+		(uuid "da48a6e0-1bf5-40c1-acc6-28636d39fedf")
 	)
 	(junction
 		(at 287.02 121.92)
@@ -4084,16 +4115,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 106.68) (xy 139.7 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0f7c9129-49b2-4be8-954c-24a25da239c3")
-	)
-	(wire
-		(pts
 			(xy 165.1 116.84) (xy 182.88 116.84)
 		)
 		(stroke
@@ -4131,6 +4152,16 @@
 			(type solid)
 		)
 		(uuid "15e6239c-66ca-467d-af14-b566dd37e8b4")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 139.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c279d21-99a7-4aef-a756-7039bfd437e5")
 	)
 	(wire
 		(pts
@@ -4414,16 +4445,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 132.08) (xy 325.12 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "37481cf4-1747-4f0e-9550-ba4a12fca67a")
-	)
-	(wire
-		(pts
 			(xy 210.82 119.38) (xy 190.5 119.38)
 		)
 		(stroke
@@ -4494,7 +4515,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 144.78 86.36)
+			(xy 124.46 86.36) (xy 139.7 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -4571,6 +4592,16 @@
 			(type solid)
 		)
 		(uuid "47512c02-74af-4b09-ac94-e325a7855878")
+	)
+	(wire
+		(pts
+			(xy 326.39 139.7) (xy 326.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475aca76-2ea7-4af0-b60a-ac7057e6f187")
 	)
 	(wire
 		(pts
@@ -4664,6 +4695,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 149.86) (xy 326.39 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5040368c-de67-42da-b947-2dbb1d7da182")
+	)
+	(wire
+		(pts
 			(xy 287.02 149.86) (xy 276.86 149.86)
 		)
 		(stroke
@@ -4681,6 +4722,16 @@
 			(type solid)
 		)
 		(uuid "53b15e29-7939-4431-9b39-232dc4cf770f")
+	)
+	(wire
+		(pts
+			(xy 326.39 116.84) (xy 340.36 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "545acdbc-5a2f-4ae8-a91f-f3b6f98aa68f")
 	)
 	(wire
 		(pts
@@ -4771,6 +4822,16 @@
 			(type solid)
 		)
 		(uuid "61a07b7b-d939-4f58-9321-e04547be0b55")
+	)
+	(wire
+		(pts
+			(xy 139.7 107.95) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630ee5ae-82bc-46a4-8efe-b78cfa044b70")
 	)
 	(wire
 		(pts
@@ -4874,6 +4935,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 149.86) (xy 340.36 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7363ee7d-641e-4d0a-806d-d4aff6fa2c4a")
+	)
+	(wire
+		(pts
 			(xy 195.58 86.36) (xy 182.88 86.36)
 		)
 		(stroke
@@ -4891,16 +4962,6 @@
 			(type solid)
 		)
 		(uuid "73ec07f5-4b93-4038-b677-13e4c49f7347")
-	)
-	(wire
-		(pts
-			(xy 312.42 149.86) (xy 325.12 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "75d54fb5-2f5b-417b-90b5-e0350c221f86")
 	)
 	(wire
 		(pts
@@ -5014,16 +5075,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "81d8ac0b-28a1-4e92-ad2a-4af617edcd82")
-	)
-	(wire
-		(pts
 			(xy 78.74 96.52) (xy 78.74 106.68)
 		)
 		(stroke
@@ -5044,7 +5095,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 116.84) (xy 325.12 116.84)
+			(xy 312.42 116.84) (xy 326.39 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -5204,16 +5255,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 137.16) (xy 325.12 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "978a1b15-5018-46a7-98e5-99b699c0693b")
-	)
-	(wire
-		(pts
 			(xy 340.36 149.86) (xy 355.6 149.86)
 		)
 		(stroke
@@ -5241,6 +5282,16 @@
 			(type solid)
 		)
 		(uuid "9dac55fd-20b1-4ecf-b8f6-afa62585393b")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ed4cd80-5c2a-41cc-9586-a3989a952a99")
 	)
 	(wire
 		(pts
@@ -5364,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 116.84) (xy 326.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f13496-8258-4814-965a-83621942b1b8")
+	)
+	(wire
+		(pts
 			(xy 355.6 137.16) (xy 355.6 149.86)
 		)
 		(stroke
@@ -5441,6 +5502,16 @@
 			(type solid)
 		)
 		(uuid "ae4cf46a-d861-46e8-adf8-259f38aa6d56")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae65c155-c356-490b-9ee7-f8dec4aba5d1")
 	)
 	(wire
 		(pts
@@ -5654,16 +5725,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 154.94 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c4d2e6b0-f053-4aae-9c4d-23765d0ab8f8")
-	)
-	(wire
-		(pts
 			(xy 312.42 175.26) (xy 292.1 175.26)
 		)
 		(stroke
@@ -5714,16 +5775,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 116.84) (xy 340.36 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cbee6d2d-582b-455d-8a38-bea2dd7a23b2")
-	)
-	(wire
-		(pts
 			(xy 53.34 68.58) (xy 53.34 83.82)
 		)
 		(stroke
@@ -5751,16 +5802,6 @@
 			(type solid)
 		)
 		(uuid "d3a082df-64c2-48a6-8a7f-e2249044ae90")
-	)
-	(wire
-		(pts
-			(xy 325.12 149.86) (xy 340.36 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d3c24183-7102-4762-9886-c3784ad39d21")
 	)
 	(wire
 		(pts
@@ -5921,16 +5962,6 @@
 			(type solid)
 		)
 		(uuid "f0e54070-d93f-4775-b23e-87a1b54b0b66")
-	)
-	(wire
-		(pts
-			(xy 139.7 101.6) (xy 139.7 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f4a50d54-f3f2-44d5-8ce6-aea571f0ca45")
 	)
 	(wire
 		(pts
@@ -8109,7 +8140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Loriques:SMAJ5.0A")
+		(lib_id "Device:D_Zener_Filled")
 		(at 139.7 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8118,7 +8149,7 @@
 		(dnp no)
 		(uuid "9fb42926-919f-4e13-acf2-ce6929a125a9")
 		(property "Reference" "D2"
-			(at 137.16 109.22 0)
+			(at 139.192 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8158,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 144.78 109.22 0)
+			(at 143.256 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Loriques:DO-214AC(SMA)"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -8144,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -8153,7 +8184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"
+		(property "Description" "Zener diode, filled shape"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -8162,10 +8193,46 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "PARTNO" "SMAJ5.0A"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "SMAJ5.0ALFCT-ND"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
 			(uuid "b26550fa-575f-405e-9a14-6727e8a279f2")
 		)
-		(pin "K"
+		(pin "1"
 			(uuid "d1fd3f3d-a1e0-43f0-9150-727aa62ee6ff")
 		)
 		(instances
@@ -8357,8 +8424,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Loriques:SMAJ5.0A")
-		(at 325.12 134.62 90)
+		(lib_id "Device:D_Zener_Filled")
+		(at 326.39 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8366,7 +8433,7 @@
 		(dnp no)
 		(uuid "a82a82ef-73e6-4c05-8a90-190eff58789f")
 		(property "Reference" "D3"
-			(at 322.58 139.7 0)
+			(at 323.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +8442,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 330.2 139.7 0)
+			(at 331.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,8 +8450,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Loriques:DO-214AC(SMA)"
-			(at 325.12 134.62 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 326.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,8 +8459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 325.12 134.62 0)
+		(property "Datasheet" "~"
+			(at 326.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,8 +8468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "9.2V Clamp 43.5A Ipp Tvs Diode Surface Mount DO-214AC (SMA)"
-			(at 325.12 134.62 0)
+		(property "Description" "Zener diode, filled shape"
+			(at 326.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,10 +8477,46 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(property "Sim.Device" "D"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "SMAJ5.0ALFCT-ND"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "SMAJ5.0A"
+			(at 326.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "b9950994-bb40-4d3d-90d8-94bd92e8cb57")
 		)
-		(pin "K"
+		(pin "2"
 			(uuid "cabbf1d2-6e9a-4de6-9452-2550f678d181")
 		)
 		(instances
@@ -8798,7 +8901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2010a.pdf"
 			(at 317.5 93.98 0)
 			(effects
 				(font
@@ -8808,6 +8911,24 @@
 			)
 		)
 		(property "Description" "IC 2.2A POWER DIST SWITCH 8-SOIC"
+			(at 317.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-2558-5-ND"
+			(at 317.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "TPS2013AD"
 			(at 317.5 93.98 0)
 			(effects
 				(font
@@ -9129,7 +9250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73871-Data-Sheet-20002090E.pdf"
 			(at 231.14 124.46 0)
 			(effects
 				(font
@@ -9140,6 +9261,24 @@
 		)
 		(property "Description" "Microchip Li Battery Charger"
 			(at 231.902 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MCP73871-2CCI/ML"
+			(at 231.648 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MCP73871-2CCI/ML-ND"
+			(at 231.648 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17263.pdf"
 			(at 322.58 200.66 0)
 			(effects
 				(font
@@ -9360,6 +9499,24 @@
 		)
 		(property "Description" "Single/Multi-Cell Fuel Gauge with ModelGauge m5 EZ and Integrated LED Control"
 			(at 324.358 240.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MAX17263LETD+T"
+			(at 322.58 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "175-MAX17263LETD+TCT-ND"
+			(at 322.58 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp38691-adj.pdf"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -9762,6 +9919,24 @@
 		)
 		(property "Description" "LP38693-ADJ Voltage Regulator\nTexas Instruments  Linear Voltage Regulator IC Positive Adjustable 1 Output 1.25 V ~ 9 V 500mA SOT-223-5"
 			(at 79.502 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "LP38693MP-ADJ/NOPB"
+			(at 79.502 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "LP38693MP-ADJ/NOPBCT-ND"
+			(at 79.502 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

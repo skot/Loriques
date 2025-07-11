@@ -10,6 +10,168 @@
 		(rev "A")
 	)
 	(lib_symbols
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Loriques:BULLET"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -654,355 +816,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Loriques:HCMA0703-2R2-R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -4.7244 2.1336 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -5.6642 -3.5814 0)
-				(effects
-					(font
-						(size 2.0828 1.7703)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Loriques:HCMA0703-2R2-R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2.2µH Shielded Wirewound Inductor 8A 20mOhm Max Nonstandard"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HCMA0703-2R2-R_1_0"
-				(arc
-					(start 4.9022 0.8382)
-					(mid 4.9944 0.458)
-					(end 5.08 0.0762)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.7178 0.8382)
-					(mid -2.5911 0.3368)
-					(end -2.54 -0.1778)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 1.8542)
-					(mid -3.0814 1.5423)
-					(end -2.7177 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.9276 0.8382)
-					(mid -4.5486 1.5441)
-					(end -3.8099 1.8542)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.1778 0.8382)
-					(mid -0.0511 0.3368)
-					(end 0 -0.1778)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -0.1778)
-					(mid -2.561 -0.0888)
-					(end -2.54 0.0001)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 1.8542)
-					(mid -0.5414 1.5423)
-					(end -0.1777 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.3876 0.8382)
-					(mid -2.0086 1.5441)
-					(end -1.2699 1.8542)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -5.0258 0.4231)
-					(end -4.9276 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.3622 0.8382)
-					(mid 2.4889 0.3368)
-					(end 2.54 -0.1778)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.1778)
-					(mid -0.0208 -0.0889)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 1.8542)
-					(mid 1.9985 1.5422)
-					(end 2.3622 0.8381)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.1524 0.8382)
-					(mid 0.5313 1.544)
-					(end 1.27 1.8541)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -2.4858 0.4231)
-					(end -2.3876 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -0.1778)
-					(mid 2.5197 -0.089)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 1.8542)
-					(mid 4.5385 1.5423)
-					(end 4.9022 0.8381)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.6924 0.8382)
-					(mid 3.0714 1.5438)
-					(end 3.81 1.8541)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.0542 0.4231)
-					(end 0.1524 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 2.5942 0.4231)
-					(end 2.6924 0.8382)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P$2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Loriques:LTC3113"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1486,168 +1299,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Loriques:MMCX-P-P-H-ST-TH1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.572 3.048 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Loriques:MMCX-P-P-H-ST-TH1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "MMCX Connector Plug, Male Pin 50Ohm Through Hole Solder"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MMCX-P-P-H-ST-TH1_1_0"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 0 180)
-					(length 5.08)
-					(name "PIN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "PIN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P$2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P$3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "P$4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 			)
@@ -2405,12 +2056,6 @@
 		(uuid "3bff59ab-ba47-4314-a038-50e3dc33c195")
 	)
 	(junction
-		(at 83.82 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c547241-f055-41f7-b9b0-25d9b57432f0")
-	)
-	(junction
 		(at 109.22 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2525,12 +2170,6 @@
 		(uuid "d1165317-5105-4d4c-afcb-f101487c3ecd")
 	)
 	(junction
-		(at 96.52 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd480d37-f43b-4fcf-a265-d4694fbe8381")
-	)
-	(junction
 		(at 332.74 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2643,6 +2282,16 @@
 			(type solid)
 		)
 		(uuid "07823cce-4a29-4558-ae1f-3e74d1d3863a")
+	)
+	(wire
+		(pts
+			(xy 247.65 97.79) (xy 261.62 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07d35c33-b2fb-4bec-9d36-b8bee1376124")
 	)
 	(wire
 		(pts
@@ -2786,16 +2435,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 120.65) (xy 83.82 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3ea462ee-6359-41b4-ade3-87a76b2d71c1")
-	)
-	(wire
-		(pts
 			(xy 223.52 113.03) (xy 223.52 107.95)
 		)
 		(stroke
@@ -2906,16 +2545,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 123.19) (xy 83.82 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4d7575be-c510-4fee-a307-d1b977605502")
-	)
-	(wire
-		(pts
 			(xy 302.26 100.33) (xy 302.26 92.71)
 		)
 		(stroke
@@ -2993,16 +2622,6 @@
 			(type solid)
 		)
 		(uuid "66ab9c86-61e6-4835-b400-0123c52e144a")
-	)
-	(wire
-		(pts
-			(xy 261.62 97.79) (xy 251.46 97.79)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "67b3f48e-950e-40c6-a8fe-b4c45d05c99f")
 	)
 	(wire
 		(pts
@@ -3126,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 88.9 107.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "86012cc3-72fc-447b-a6d8-4cd46c61bef0")
-	)
-	(wire
-		(pts
 			(xy 177.8 143.51) (xy 187.96 143.51)
 		)
 		(stroke
@@ -3196,16 +2805,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 120.65) (xy 83.82 120.65)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9c66ae6c-d991-4d39-b769-32b33897fe40")
-	)
-	(wire
-		(pts
 			(xy 264.16 113.03) (xy 264.16 92.71)
 		)
 		(stroke
@@ -3246,13 +2845,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 123.19) (xy 83.82 123.19)
+			(xy 236.22 97.79) (xy 240.03 97.79)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "a719fc9d-8e4b-4cec-a4d2-787f8c83d36c")
+		(uuid "a75159dc-c5c7-4db4-bf9c-99cd82668ceb")
 	)
 	(wire
 		(pts
@@ -3286,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 107.95) (xy 83.82 107.95)
+			(xy 77.47 107.95) (xy 88.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3483,16 +3082,6 @@
 			(type solid)
 		)
 		(uuid "ec208041-d5a1-48b6-9419-d8f23752035d")
-	)
-	(wire
-		(pts
-			(xy 83.82 143.51) (xy 96.52 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ec9210c8-af2a-4868-a3c3-ceb57f3e51e7")
 	)
 	(wire
 		(pts
@@ -4405,94 +3994,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Loriques:MMCX-P-P-H-ST-TH1")
-		(at 73.66 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c3ffab0-6993-4905-b777-a0c9e02c044b")
-		(property "Reference" "J5"
-			(at 69.088 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "MMCX-P-P-H-ST-TH1"
-			(at 73.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Loriques:MMCX-P-P-H-ST-TH1"
-			(at 73.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MMCX Connector Plug, Male Pin 50Ohm Through Hole Solder"
-			(at 73.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNP" "T"
-			(at 73.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "P$1"
-			(uuid "b6512ea5-73df-4658-a57b-d5e739b36ca9")
-		)
-		(pin "P$2"
-			(uuid "ac2f74b3-6c48-4ab3-907d-775fe56314d4")
-		)
-		(pin "P$3"
-			(uuid "56003c1a-eb7f-4418-b67a-6a9201898e14")
-		)
-		(pin "P$4"
-			(uuid "8ce51ec1-0c06-41a3-ae41-644d7a73ca86")
-		)
-		(pin "PIN"
-			(uuid "dcf32d29-c76d-4669-a878-b809d61bf303")
-		)
-		(instances
-			(project "Loriques"
-				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/a02f1723-ba56-4604-a65b-8dc913c22eb2"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Loriques:LTC3113")
 		(at 243.84 118.11 0)
 		(unit 1)
@@ -4625,8 +4126,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Loriques:HCMA0703-2R2-R")
-		(at 243.84 97.79 0)
+		(lib_id "Device:L")
+		(at 243.84 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4634,7 +4135,7 @@
 		(dnp no)
 		(uuid "5fb8c229-9653-463e-8c1b-1bde91ca3437")
 		(property "Reference" "L1"
-			(at 238.252 94.742 0)
+			(at 244.856 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,8 +4143,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "HCMA0703-2R2-R"
-			(at 234.95 100.076 0)
+		(property "Value" "2.2uH"
+			(at 246.634 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4152,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Loriques:HCMA0703-2R2-R"
+		(property "Footprint" "Loriques:IND_IHLP-2525CZ_VIS"
 			(at 243.84 97.79 0)
 			(effects
 				(font
@@ -4660,7 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 243.84 97.79 0)
 			(effects
 				(font
@@ -4669,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.2µH Shielded Wirewound Inductor 8A 20mOhm Max Nonstandard"
+		(property "Description" "Inductor"
 			(at 243.84 97.79 0)
 			(effects
 				(font
@@ -4678,10 +4179,28 @@
 				(hide yes)
 			)
 		)
-		(pin "P$1"
+		(property "PARTNO" "IHLP2525CZER2R2MA1"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "541-IHLP2525CZER2R2MA1CT-ND"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "1d0fb5e9-2c6b-4756-9a09-3653b696cb67")
 		)
-		(pin "P$2"
+		(pin "2"
 			(uuid "d741d017-eafe-4992-ad30-65fdfe077563")
 		)
 		(instances

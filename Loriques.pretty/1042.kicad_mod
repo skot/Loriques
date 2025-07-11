@@ -265,7 +265,7 @@
 		(uuid "2247439e-b24b-435a-94d9-2994fdea29da")
 	)
 	(fp_text user "-"
-		(at -10.4 1.8 0)
+		(at -12.206 1.782 0)
 		(layer "F.SilkS")
 		(uuid "75ccba5c-5bda-4eb5-bfed-9336e8f02192")
 		(effects
