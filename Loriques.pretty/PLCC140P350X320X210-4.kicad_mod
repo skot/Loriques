@@ -11,8 +11,8 @@
 		(uuid "286f909f-b225-4b93-b457-a29653e5f5b6")
 		(effects
 			(font
-				(size 0.747776 0.747776)
-				(thickness 0.065024)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify bottom)
 		)

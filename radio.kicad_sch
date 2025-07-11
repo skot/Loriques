@@ -2610,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 124.46) (xy 120.65 124.46)
+			(xy 106.68 124.46) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 129.54) (xy 120.65 129.54)
+			(xy 106.68 129.54) (xy 120.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2730,7 +2730,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 132.08) (xy 120.65 132.08)
+			(xy 106.68 132.08) (xy 120.65 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 142.24) (xy 120.65 142.24)
+			(xy 106.68 142.24) (xy 120.65 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 144.78) (xy 120.65 144.78)
+			(xy 106.68 144.78) (xy 120.65 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3030,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 134.62) (xy 120.65 134.62)
+			(xy 106.68 134.62) (xy 120.65 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 147.32) (xy 156.21 147.32)
+			(xy 146.05 147.32) (xy 161.29 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 137.16) (xy 120.65 137.16)
+			(xy 106.68 137.16) (xy 120.65 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3370,7 +3370,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 132.08) (xy 146.05 132.08)
+			(xy 161.29 132.08) (xy 146.05 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3488,7 +3488,7 @@
 		)
 		(uuid "fbd5a218-2b45-44ac-ac38-258caba1c77d")
 	)
-	(label "BUSY"
+	(label "BUSY_RADIO"
 		(at 214.63 113.03 0)
 		(effects
 			(font
@@ -3498,7 +3498,7 @@
 		)
 		(uuid "0ad17ca9-394c-40c8-852c-d03dfb35a259")
 	)
-	(label "NSS"
+	(label "NSS_RADIO"
 		(at 265.43 97.79 180)
 		(effects
 			(font
@@ -3568,7 +3568,7 @@
 		)
 		(uuid "25118cdc-b87d-4329-97ea-4892aed9ada3")
 	)
-	(label "MISO"
+	(label "MISO_RADIO"
 		(at 214.63 90.17 0)
 		(effects
 			(font
@@ -3588,8 +3588,8 @@
 		)
 		(uuid "29777ea6-d761-4310-a955-3de51751c629")
 	)
-	(label "NSS"
-		(at 110.49 137.16 0)
+	(label "NSS_RADIO"
+		(at 106.68 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3628,8 +3628,8 @@
 		)
 		(uuid "48b91f57-2d1e-42ef-aa0b-66c7effd2fb9")
 	)
-	(label "SCK"
-		(at 110.49 134.62 0)
+	(label "SCK_RADIO"
+		(at 106.68 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3638,8 +3638,8 @@
 		)
 		(uuid "49262afc-b634-4143-b197-463b9170acd0")
 	)
-	(label "RXEN"
-		(at 110.49 142.24 0)
+	(label "RXEN_RADIO"
+		(at 106.68 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3668,7 +3668,7 @@
 		)
 		(uuid "5138de6a-abd4-4c3e-9b83-e16e776b8f50")
 	)
-	(label "MOSI"
+	(label "MOSI_RADIO"
 		(at 265.43 92.71 180)
 		(effects
 			(font
@@ -3679,7 +3679,7 @@
 		(uuid "528fc871-40aa-44ec-a9b0-ee2e4cceedf0")
 	)
 	(label "GND"
-		(at 156.21 147.32 180)
+		(at 161.29 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3698,7 +3698,7 @@
 		)
 		(uuid "6ed66f16-9d70-44cc-98e3-9f6b96c16ef7")
 	)
-	(label "RXEN"
+	(label "RXEN_RADIO"
 		(at 265.43 105.41 180)
 		(effects
 			(font
@@ -3708,7 +3708,7 @@
 		)
 		(uuid "7be1c03c-884d-4829-93a1-83f85a29ef10")
 	)
-	(label "TXEN"
+	(label "TXEN_RADIO"
 		(at 265.43 107.95 180)
 		(effects
 			(font
@@ -3728,7 +3728,7 @@
 		)
 		(uuid "7dfa5f17-3010-48a6-83a6-1c3699d3fdae")
 	)
-	(label "RST"
+	(label "RST_RADIO"
 		(at 265.43 110.49 180)
 		(effects
 			(font
@@ -3748,8 +3748,8 @@
 		)
 		(uuid "93c5d55a-e04d-492a-bc81-e58c8cc2837e")
 	)
-	(label "BUSY"
-		(at 156.21 132.08 180)
+	(label "BUSY_RADIO"
+		(at 161.29 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3758,8 +3758,8 @@
 		)
 		(uuid "a251ffac-6021-4392-a523-f1e5ed8f8078")
 	)
-	(label "MOSI"
-		(at 110.49 129.54 0)
+	(label "MOSI_RADIO"
+		(at 106.68 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,8 +3788,8 @@
 		)
 		(uuid "c7b98f32-b9d5-43b9-8173-4465e11cb62b")
 	)
-	(label "TXEN"
-		(at 110.49 144.78 0)
+	(label "TXEN_RADIO"
+		(at 106.68 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3808,8 +3808,8 @@
 		)
 		(uuid "d6f074da-412a-4670-8fb4-75eaef130d72")
 	)
-	(label "MISO"
-		(at 110.49 132.08 0)
+	(label "MISO_RADIO"
+		(at 106.68 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3818,7 +3818,7 @@
 		)
 		(uuid "e038e2dd-b6cd-4ea2-b849-e941745b8fdd")
 	)
-	(label "SCK"
+	(label "SCK_RADIO"
 		(at 265.43 95.25 180)
 		(effects
 			(font
@@ -3848,8 +3848,8 @@
 		)
 		(uuid "eaccf29b-d119-4305-9165-5676f1230dc8")
 	)
-	(label "RST"
-		(at 110.49 124.46 0)
+	(label "RST_RADIO"
+		(at 106.68 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)

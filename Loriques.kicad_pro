@@ -453,7 +453,8 @@
       "Loriques"
     ],
     "pinned_symbol_libs": [
-      "autonode"
+      "autonode",
+      "Loriques"
     ]
   },
   "meta": {

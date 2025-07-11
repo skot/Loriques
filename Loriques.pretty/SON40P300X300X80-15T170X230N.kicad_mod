@@ -249,4 +249,15 @@
 		(uuid "6a3c8945-131c-479a-aa8d-0382d17aadb1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/SON40P300X300X80-15N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

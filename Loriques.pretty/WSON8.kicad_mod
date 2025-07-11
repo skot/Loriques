@@ -1,7 +1,7 @@
 (footprint "WSON8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -2 -1.25 0)
@@ -10,8 +10,8 @@
 		(uuid "4a70fb68-85ae-4fdd-8922-a678e9bf1b2b")
 		(effects
 			(font
-				(size 0.93472 0.93472)
-				(thickness 0.08128)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -29,18 +29,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" "WSON8"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e36a6cdd-20ad-41aa-9716-5334fd3bd038")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,32 +51,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
-	)
-	(fp_poly
-		(pts
-			(xy -0.41 -0.06) (xy 0.42 -0.06) (xy 0.42 -0.77) (xy -0.41 -0.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "18bb7911-2960-4153-a382-b9e471e8e691")
-	)
-	(fp_poly
-		(pts
-			(xy -0.41 0.77) (xy 0.42 0.77) (xy 0.42 0.06) (xy -0.41 0.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "d7708a56-d656-49ef-ae8f-8186ffe55a94")
 	)
 	(fp_line
 		(start -1.05 -1.05)
@@ -136,14 +102,38 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "7647ae7b-9db6-4f24-92a9-be280790f386")
+	)
+	(fp_poly
+		(pts
+			(xy -0.41 -0.06) (xy 0.42 -0.06) (xy 0.42 -0.77) (xy -0.41 -0.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "18bb7911-2960-4153-a382-b9e471e8e691")
+	)
+	(fp_poly
+		(pts
+			(xy -0.41 0.77) (xy 0.42 0.77) (xy 0.42 0.06) (xy -0.41 0.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d7708a56-d656-49ef-ae8f-8186ffe55a94")
 	)
 	(pad "1" smd rect
 		(at -0.95 -0.75)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "b358f634-e426-45d3-891f-f590a9868caa")
@@ -151,7 +141,7 @@
 	(pad "2" smd rect
 		(at -0.95 -0.25)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "60464c8f-5514-42a8-9685-4d2be81cd252")
@@ -159,7 +149,7 @@
 	(pad "3" smd rect
 		(at -0.95 0.25)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "2b07d795-4044-41d1-bb8f-e6e135537c99")
@@ -167,7 +157,7 @@
 	(pad "4" smd rect
 		(at -0.95 0.75)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "0f1b1af9-27db-4030-9654-660310022a33")
@@ -175,7 +165,7 @@
 	(pad "5" smd rect
 		(at 0.95 0.75)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "5777f580-d2e5-4d51-acc5-dd4289fb098e")
@@ -183,7 +173,7 @@
 	(pad "6" smd rect
 		(at 0.95 0.25)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "83ea6ba4-34f7-478e-8477-40a1893799b3")
@@ -191,7 +181,7 @@
 	(pad "7" smd rect
 		(at 0.95 -0.25)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "8701769d-8c59-4aea-9c35-a7b705afbd59")
@@ -199,7 +189,7 @@
 	(pad "8" smd rect
 		(at 0.95 -0.75)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "8c541106-72e6-486d-bec3-8ae82155fca0")
@@ -211,5 +201,17 @@
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "16bad230-834a-4e9a-aaca-3b57820bf972")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/DSG0008A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

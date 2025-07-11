@@ -317,6 +317,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Loriques:18650_1042"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -962,173 +1123,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Loriques:CPOL_16X27MM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.016 0.635 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.016 -4.191 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Loriques:25PK4700MEFC16X25"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4700µF 25V Aluminum Electrolytic Capacitors Radial"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CPOL_16X27MM_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.253 0.668)
-					(end -1.364 0.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.872 0.287)
-					(end -1.745 1.176)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -2.4669 -1.8504)
-					(mid -1.3021 -1.2303)
-					(end 0 -1.0161)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1)
-					(mid 1.3158 -1.2194)
-					(end 2.4892 -1.8541)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
 						(effects
 							(font
 								(size 0 0)
@@ -3942,6 +3936,22 @@
 		(color 0 0 0 0)
 		(uuid "fa1cf02a-f977-498b-ac18-5c50161a9103")
 	)
+	(no_connect
+		(at 307.34 215.9)
+		(uuid "0fb4e1dd-f7c3-4288-891d-7b418ab6ad5a")
+	)
+	(no_connect
+		(at 307.34 210.82)
+		(uuid "14988042-d12d-43c6-aed4-b62fd2a32d17")
+	)
+	(no_connect
+		(at 307.34 213.36)
+		(uuid "b0ee5cc0-ad59-44c2-bc83-99e89d6c6bf8")
+	)
+	(no_connect
+		(at 307.34 208.28)
+		(uuid "c85ae0d8-fa56-4277-aadc-53cb951df4f3")
+	)
 	(wire
 		(pts
 			(xy 299.72 106.68) (xy 335.28 106.68)
@@ -6351,13 +6361,12 @@
 		(dnp no)
 		(uuid "05e7a99d-c000-43e7-9d8f-682513bae529")
 		(property "Reference" "TP27"
-			(at 272.542 110.744 0)
+			(at 271.78 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "TEST-POINT3X5"
@@ -6686,7 +6695,7 @@
 		(dnp no)
 		(uuid "3fb00d64-cfe4-442b-b294-e77e77669e04")
 		(property "Reference" "TP32"
-			(at 171.958 168.656 0)
+			(at 171.958 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,8 +6996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Loriques:CPOL_16X27MM")
-		(at 154.94 104.14 0)
+		(lib_id "Device:C_Polarized")
+		(at 154.94 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6996,7 +7005,7 @@
 		(dnp no)
 		(uuid "479607e1-066d-4203-bf1d-9c4dc22ad77e")
 		(property "Reference" "C27"
-			(at 155.956 103.505 0)
+			(at 155.702 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,8 +7013,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CPOL_16X27MM"
-			(at 155.956 108.331 0)
+		(property "Value" "4700uF"
+			(at 155.702 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7023,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
-			(at 154.94 104.14 0)
+			(at 155.9052 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,8 +7031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 154.94 104.14 0)
+		(property "Datasheet" "~"
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,8 +7040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4700µF 25V Aluminum Electrolytic Capacitors Radial"
-			(at 154.94 104.14 0)
+		(property "Description" "Polarized capacitor"
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +7050,7 @@
 			)
 		)
 		(property "PARTNO" "25PK4700MEFC16X25"
-			(at 154.94 104.14 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7050,7 +7059,7 @@
 			)
 		)
 		(property "DK" "1189-1732-ND"
-			(at 154.94 104.14 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,10 +7067,10 @@
 				(hide yes)
 			)
 		)
-		(pin "+"
+		(pin "1"
 			(uuid "431edb12-de42-42dd-8dfb-c8e6daa46f9f")
 		)
-		(pin "-"
+		(pin "2"
 			(uuid "1eb33869-4af7-4636-827b-2895848d57f1")
 		)
 		(instances
@@ -7954,7 +7963,7 @@
 		(dnp no)
 		(uuid "981f6b8b-5545-4e2c-961d-0ee62a3e1c46")
 		(property "Reference" "TP31"
-			(at 161.798 168.656 0)
+			(at 161.798 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8859,7 @@
 		(dnp no)
 		(uuid "b4d58cfd-6fb1-4b44-acc3-e8bee04ee026")
 		(property "Reference" "TP26"
-			(at 176.022 77.724 0)
+			(at 176.022 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9431,7 @@
 		(dnp no)
 		(uuid "c5f6887c-9ea3-4fec-b8d7-4e17393c1e06")
 		(property "Reference" "TP30"
-			(at 151.638 168.656 0)
+			(at 151.638 168.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +10051,7 @@
 		(dnp no)
 		(uuid "e99bf9a2-2d78-496e-85ff-866a09f7833e")
 		(property "Reference" "TP24"
-			(at 120.142 80.264 0)
+			(at 120.142 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
