@@ -1,7 +1,7 @@
 (footprint "1042"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -38.3 -10.9 0)
@@ -10,13 +10,13 @@
 		(uuid "429cc1f3-3b03-4a0a-9cc2-2ad13b18fa97")
 		(effects
 			(font
-				(size 1.63576 1.63576)
-				(thickness 0.14224)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -24,18 +24,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Footprint" "1042"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3add9c10-2b4a-4a2e-9d2c-036d78dc1de9")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -333,7 +324,7 @@
 	(pad "+" smd rect
 		(at 39.67 0)
 		(size 7.46 6.47)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "08a21c1a-14b3-4afe-9742-5c3727ff868d")
@@ -341,9 +332,32 @@
 	(pad "-" smd rect
 		(at -39.67 0)
 		(size 7.46 6.47)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "d98b60a2-2800-4c5a-87bb-fef2741b05db")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/1042.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3d/Sony Murata VTC5A 18650 2600mAh 25A Battery.step"
+		(offset
+			(xyz -32.5 0 8.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -140 -90)
+		)
 	)
 )

@@ -1,7 +1,7 @@
 (footprint "PLCC140P350X320X210-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4-PLCC, 1.40 mm pitch, 3.50 mm lead span1, 3.20 mm lead span2, 3.20 X 2.80 X 2.10 mm body\n\n6-pin PLCC package with 1.40 mm pitch, 3.50 mm lead span1 X 3.20 mm lead span2 with body size 3.20 X 2.80 X 2.10 mm")
 	(property "Reference" "REF**"
@@ -17,7 +17,7 @@
 			(justify bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -25,18 +25,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Footprint" "PLCC140P350X320X210-4"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c7471a12-47be-4792-9c04-189d2dd71a9f")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -191,14 +182,14 @@
 			(width 0.25)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "66ef8ede-4d47-4beb-bdb4-dc67bff20ece")
 	)
 	(pad "1" smd rect
 		(at -1.64 -0.7)
 		(size 1.1354 0.8891)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "8c73a5ee-d63c-493d-98ad-b568f4b99b64")
@@ -206,7 +197,7 @@
 	(pad "2" smd rect
 		(at -1.64 0.7)
 		(size 1.1354 0.8891)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "492a32b9-ee71-4ef7-b5f9-f47c055e43d4")
@@ -214,7 +205,7 @@
 	(pad "3" smd rect
 		(at 1.64 0.7)
 		(size 1.1354 0.8891)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "9dee461e-7314-4d27-a898-36f5acd772dc")
@@ -222,9 +213,21 @@
 	(pad "4" smd rect
 		(at 1.64 -0.7)
 		(size 1.1354 0.8891)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.0508)
 		(thermal_bridge_angle 0)
 		(uuid "780da3ee-8e28-45f2-aa95-1dd4329e3898")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/CLV1A-FKB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

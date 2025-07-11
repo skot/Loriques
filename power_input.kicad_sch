@@ -7013,7 +7013,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Loriques:25PK4700MEFC16X25"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 154.94 104.14 0)
 			(effects
 				(font
@@ -7032,6 +7032,24 @@
 			)
 		)
 		(property "Description" "4700µF 25V Aluminum Electrolytic Capacitors Radial"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "25PK4700MEFC16X25"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "1189-1732-ND"
 			(at 154.94 104.14 0)
 			(effects
 				(font
@@ -9238,6 +9256,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "B4B-PH-SM4-TB"
+			(at 27.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "455-B4B-PH-SM4-TBCT-ND"
 			(at 27.94 86.36 0)
 			(effects
 				(font

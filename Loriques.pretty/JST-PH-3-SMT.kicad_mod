@@ -146,4 +146,15 @@
 		(uuid "2227b2d7-e2da-458f-9984-fd093fb426b8")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/B3B-PH-SM4-TB.STEP"
+		(offset
+			(xyz 1 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

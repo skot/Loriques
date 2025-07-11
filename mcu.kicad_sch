@@ -8569,6 +8569,24 @@
 				(hide yes)
 			)
 		)
+		(property "PARTNO" "HDC2080DMBR"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-52638-1-ND"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5be0ca3f-8908-4a64-a907-0928b1abfd89")
 		)
@@ -10224,6 +10242,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 342.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "B3B-PH-SM4-TB"
+			(at 342.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "455-B3B-PH-SM4-TBCT-ND"
 			(at 342.9 139.7 0)
 			(effects
 				(font

@@ -10,8 +10,8 @@
 		(uuid "25777d16-3663-4aa5-bbc4-ad1b16f469bb")
 		(effects
 			(font
-				(size 0.747776 0.747776)
-				(thickness 0.065024)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -163,4 +163,15 @@
 		(uuid "818407d9-aa88-4689-9e17-5286664d9307")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/HDC2080DMBR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
