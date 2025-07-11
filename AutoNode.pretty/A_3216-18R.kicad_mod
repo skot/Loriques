@@ -1,0 +1,135 @@
+(footprint "A_3216-18R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chip Capacitor Type KEMET A / EIA 3216-18 reflow solder\n\nKEMET S / EIA 3216-12")
+	(property "Reference" "REF**"
+		(at -1.95 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "18115706-0583-4512-a9c3-0aaabbb5b9e8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "A_3216-18R"
+		(at -1.95 2.325 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "97bc3ac0-e1a8-44ae-aba2-e5251ebab3ed")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "A_3216-18R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73b4c611-83ef-4f53-9cd2-2491e11a3259")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a92b6ae-93ee-4735-9442-6c8643a9ed42")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9035116b-e876-4893-8c22-0e18f60774f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc8a4e5c-b922-4493-a7a4-cb2f203f5471")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86e2eb9d-f28c-45b2-a151-96dd1d89f0e2")
+	)
+	(fp_line
+		(start 0.8 -1.2)
+		(end 0.8 1.2)
+		(stroke
+			(width 0.4064)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08e5700b-7338-4d3f-8988-1ce0dc887964")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23d8b5d6-90ef-45af-92a6-a7ebaeec0e9b")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6556942-2ece-41cd-9b0f-f89e168620c0")
+	)
+	(pad "+" smd rect
+		(at 1.375 0)
+		(size 1.95 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "b3f79edd-0c3b-4fe3-ba85-93e4442c1869")
+	)
+	(pad "-" smd rect
+		(at -1.375 0)
+		(size 1.95 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "e6a02364-462b-4c26-be15-573678353da0")
+	)
+)
