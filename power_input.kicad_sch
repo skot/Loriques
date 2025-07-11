@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "470f98aa-c5ab-4320-9eff-352f135ae3b4")
-	(paper "User" 411.302 254.991)
+	(paper "A3")
+	(title_block
+		(title "Loriques")
+		(date "2025-07-11")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
