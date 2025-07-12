@@ -1,7 +1,6 @@
 ![](artwork/Loriques_logo.png)
-Loriques is a solar powered Meshtastic LoRa gateway. 
 
-*Warning: Loriques is very much a work in progress.*
+Loriques is a solar powered Meshtastic LoRa gateway. *Warning: Loriques is very much a work in progress.*
 
 ![](doc/render_revA.png)
 
