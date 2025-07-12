@@ -117,177 +117,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3833,17 +3662,6 @@
 		)
 		(uuid "11aa2d1a-cd6a-4098-abf4-ce83f2b72d79")
 	)
-	(text "Serial Connector"
-		(exclude_from_sim no)
-		(at 330.2 152.4 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "156674ed-e931-48ef-a66a-c50703fa6f00")
-	)
 	(text "OLED Load Switch"
 		(exclude_from_sim no)
 		(at 168.91 77.47 0)
@@ -3864,17 +3682,6 @@
 			)
 		)
 		(uuid "828aa081-ddcc-4f32-8fcd-57dc43216762")
-	)
-	(text "DEBUG SERIAL"
-		(exclude_from_sim no)
-		(at 325.12 133.858 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "a30f179a-f38d-4e18-a34e-37dafcd6fbcf")
 	)
 	(text "User LED\n"
 		(exclude_from_sim no)
@@ -3956,8 +3763,16 @@
 		(uuid "317fcc48-4393-445a-94f5-f8f07476b579")
 	)
 	(no_connect
+		(at 107.95 210.82)
+		(uuid "4983318b-8d1f-46c5-be75-3a604323934e")
+	)
+	(no_connect
 		(at 96.52 30.48)
 		(uuid "4caff14c-b76c-4b01-92ab-5014ccc164e1")
+	)
+	(no_connect
+		(at 107.95 208.28)
+		(uuid "6813c1ae-0bea-4b74-bbd4-f0651f89e1b0")
 	)
 	(no_connect
 		(at 96.52 45.72)
@@ -4182,16 +3997,6 @@
 			(type solid)
 		)
 		(uuid "24c81dbf-2628-46a5-940e-3caac3e210a8")
-	)
-	(wire
-		(pts
-			(xy 337.82 142.24) (xy 325.12 142.24)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2536adf0-b077-4565-835f-09d2c645ec47")
 	)
 	(wire
 		(pts
@@ -4605,16 +4410,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 210.82) (xy 107.95 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81553861-176b-4f37-bf7e-dc7431540f17")
-	)
-	(wire
-		(pts
 			(xy 83.82 133.35) (xy 88.9 133.35)
 		)
 		(stroke
@@ -4825,16 +4620,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 208.28) (xy 107.95 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb4db799-8b85-452e-b08c-9c71421c1b2a")
-	)
-	(wire
-		(pts
 			(xy 222.25 185.42) (xy 243.84 185.42)
 		)
 		(stroke
@@ -4902,16 +4687,6 @@
 			(type solid)
 		)
 		(uuid "d3960774-65fd-493e-b42b-d1e39988a399")
-	)
-	(wire
-		(pts
-			(xy 325.12 137.16) (xy 337.82 137.16)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d6e2a0f2-e489-4f87-b193-1a286a3cb4ab")
 	)
 	(wire
 		(pts
@@ -4992,16 +4767,6 @@
 			(type solid)
 		)
 		(uuid "de4366b8-5f5d-4bfb-8fe5-78f5001b2a7b")
-	)
-	(wire
-		(pts
-			(xy 337.82 139.7) (xy 325.12 139.7)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "de5291df-02c6-46d0-b992-a1c6f0d2f930")
 	)
 	(wire
 		(pts
@@ -5283,16 +5048,6 @@
 		)
 		(uuid "476f68ef-4899-49de-a12d-d61bee4de70e")
 	)
-	(label "GND"
-		(at 325.12 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4924cfe7-9008-4e2b-b663-9d1cf3ee2593")
-	)
 	(label "SDA"
 		(at 64.77 38.1 0)
 		(effects
@@ -5352,16 +5107,6 @@
 			(justify left bottom)
 		)
 		(uuid "733da8c6-752b-4465-b12e-96d1c7b1ff80")
-	)
-	(label "RX_DEBUG_O"
-		(at 325.12 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "77d87ab5-5e7f-4395-8d5b-ec6bc6a27f23")
 	)
 	(label "SCL"
 		(at 243.84 182.88 180)
@@ -5543,16 +5288,6 @@
 		)
 		(uuid "b3a26dcc-3e63-4075-b6da-505eba89f005")
 	)
-	(label "RX_DEBUG_O"
-		(at 86.36 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b44ae1eb-0bc3-4028-9c8f-a7757ec50e31")
-	)
 	(label "LED0G"
 		(at 86.36 203.2 0)
 		(effects
@@ -5593,16 +5328,6 @@
 		)
 		(uuid "c89237f2-2e12-486d-9b4f-c1afdab6579b")
 	)
-	(label "TX_DEBUG_O"
-		(at 325.12 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb03d981-9410-473b-888c-970762cc4f45")
-	)
 	(label "GND"
 		(at 212.09 105.41 0)
 		(effects
@@ -5612,16 +5337,6 @@
 			(justify left bottom)
 		)
 		(uuid "cc0e9d2b-f0f2-4a33-b1b9-c776347c46c2")
-	)
-	(label "TX_DEBUG_O"
-		(at 86.36 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7160b57-4bd1-4bd7-983c-aea22353c1f3")
 	)
 	(label "GND"
 		(at 148.59 102.87 0)
@@ -8159,97 +7874,6 @@
 			(project "Loriques"
 				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 342.9 139.7 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d51f18c2-e913-4a9f-8583-94c5883a34e8")
-		(property "Reference" "J1"
-			(at 345.948 133.858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JST_PH_3PIN"
-			(at 345.44 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Loriques:JST-PH-3-SMT"
-			(at 342.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 342.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 342.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "B3B-PH-SM4-TB"
-			(at 342.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DK" "455-B3B-PH-SM4-TBCT-ND"
-			(at 342.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "055e3b03-731a-449d-a4eb-b17bf5f594f2")
-		)
-		(pin "2"
-			(uuid "a329dbd6-9384-429d-82b9-31c531eeadd0")
-		)
-		(pin "3"
-			(uuid "6acc2580-2426-4d53-b0a7-f45e103df370")
-		)
-		(instances
-			(project "Loriques"
-				(path "/23714a9e-6212-41ed-9d80-e983f828d45f/02db5e49-999f-43d3-aed1-3a2dd3ad0a6f"
-					(reference "J1")
 					(unit 1)
 				)
 			)
