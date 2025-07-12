@@ -142,4 +142,15 @@
 		(uuid "9d3ba2cf-b6bc-4818-afdd-e023200a0c2b")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/MBR120VLSFT1G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

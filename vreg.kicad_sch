@@ -829,7 +829,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "LTC3113"
 				(at -10.16 -15.24 0)
 				(effects
 					(font
@@ -847,8 +847,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf"
+				(at -0.254 -23.622 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -865,12 +865,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "PARTNO" "LTC3113IDHD#TRPBF"
+				(at -0.254 -23.622 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "DK" "LTC3113IDHD#TRPBFCT-ND"
+				(at -0.254 -23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "LTC3113_1_0"
@@ -1173,114 +1183,6 @@
 						)
 					)
 					(number "17"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P$6"
 						(effects
 							(font
 								(size 0 0)
@@ -4029,7 +3931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf"
 			(at 243.84 118.11 0)
 			(effects
 				(font
@@ -4040,6 +3942,24 @@
 		)
 		(property "Description" "Buck-Boost Switching Regulator IC Positive Adjustable 1.8V 1 Output 3A 16-WFDFN Exposed Pad"
 			(at 245.618 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "LTC3113IDHD#TRPBF"
+			(at 243.586 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "LTC3113IDHD#TRPBFCT-ND"
+			(at 243.586 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,24 +4014,6 @@
 		)
 		(pin "9"
 			(uuid "9e6c95f6-7198-4678-9ef8-ab760b625da0")
-		)
-		(pin "P$1"
-			(uuid "708af1be-e0fc-4f87-a7f0-a947a2d8ff0c")
-		)
-		(pin "P$2"
-			(uuid "ef39c82e-63ef-4a07-87eb-1150cccde92b")
-		)
-		(pin "P$3"
-			(uuid "e74be1c4-74b7-4153-bf5d-c22cb9645ae9")
-		)
-		(pin "P$4"
-			(uuid "086e5674-f197-4ace-b3a0-47a99803d08d")
-		)
-		(pin "P$5"
-			(uuid "a673d270-0098-4ffd-800e-b1c8bc4edaeb")
-		)
-		(pin "P$6"
-			(uuid "d8f6d6d0-9c5f-48c9-b70e-992ac129e8f1")
 		)
 		(pin "1"
 			(uuid "7c900d10-726c-4717-a72a-1ebb10c318f3")

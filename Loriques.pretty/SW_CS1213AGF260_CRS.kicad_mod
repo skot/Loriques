@@ -298,7 +298,7 @@
 		(uuid "5b7cdef8-2568-465e-8428-668e6c37f5f1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/aditBoard.3dshapes/CS1213AG-tr.stp"
+	(model "${KIPRJMOD}/3d/CS1213AG-tr.stp"
 		(offset
 			(xyz -1.95 -1.5 0)
 		)

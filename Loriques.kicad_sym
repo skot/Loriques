@@ -5437,7 +5437,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LTC3113"
 			(at -10.16 -15.24 0)
 			(effects
 				(font
@@ -5455,8 +5455,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3113f.pdf"
+			(at -0.254 -23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,12 +5473,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "PARTNO" "LTC3113IDHD#TRPBF"
+			(at -0.254 -23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DK" "LTC3113IDHD#TRPBFCT-ND"
+			(at -0.254 -23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "LTC3113_1_0"
@@ -5781,114 +5791,6 @@
 					)
 				)
 				(number "17"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$4"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$5"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P$6"
 					(effects
 						(font
 							(size 0 0)
@@ -13489,22 +13391,22 @@
 			(at -5.08 2.54 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MBR120VLSF"
 			(at -5.08 -5.08 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Loriques:SOD−123FL"
-			(at 0 0 0)
+			(at 0 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,8 +13414,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr120vlsft1-d.pdf"
+			(at -0.762 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13522,7 +13424,7 @@
 			)
 		)
 		(property "Description" "SOD-123F SMD Schottky Diode\nDiode Schottky 20V 1A Surface Mount SOD-123FL"
-			(at 0 0 0)
+			(at 0 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13530,12 +13432,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "PARTNO" "MBR120VLSFT1G"
+			(at -0.762 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MBR120VLSFT1GOSCT-ND"
+			(at -0.762 -6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "MBR120VLSF_1_0"
@@ -13666,7 +13578,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 0 0)
+				(at 2.54 0 180)
 				(length 0)
 				(name "K"
 					(effects
@@ -19442,22 +19354,22 @@
 			(at -7.62 16.002 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SN74LVC244A"
 			(at -7.62 -25.4 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Footprint" "Loriques:R-PVQFN-N20"
-			(at 0 0 0)
+			(at 3.556 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19465,8 +19377,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf"
+			(at 3.556 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19475,7 +19387,7 @@
 			)
 		)
 		(property "Description" "SN74LVC244A\nBuffer, Non-Inverting 2 Element 4 Bit per Element Push-Pull Output 20-VQFN (3.5x4.5)"
-			(at 0 0 0)
+			(at 3.556 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19483,12 +19395,22 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "PARTNO" "SN74LVC244ARGYR"
+			(at 3.556 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DK" "296-13967-1-ND"
+			(at 3.556 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "SN74LVC244A_1_0"

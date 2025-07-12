@@ -1809,22 +1809,22 @@
 				(at -5.08 2.54 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MBR120VLSF"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
 					(justify left bottom)
 				)
 			)
 			(property "Footprint" "Loriques:SOD−123FL"
-				(at 0 0 0)
+				(at 0 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1832,8 +1832,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr120vlsft1-d.pdf"
+				(at -0.762 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1842,7 +1842,7 @@
 				)
 			)
 			(property "Description" "SOD-123F SMD Schottky Diode\nDiode Schottky 20V 1A Surface Mount SOD-123FL"
-				(at 0 0 0)
+				(at 0 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1850,12 +1850,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "PARTNO" "MBR120VLSFT1G"
+				(at -0.762 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "DK" "MBR120VLSFT1GOSCT-ND"
+				(at -0.762 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "MBR120VLSF_1_0"
@@ -1986,7 +1996,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2.54 0 0)
+					(at 2.54 0 180)
 					(length 0)
 					(name "K"
 						(effects
@@ -7862,7 +7872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbr120vlsft1-d.pdf"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -7873,6 +7883,24 @@
 		)
 		(property "Description" "SOD-123F SMD Schottky Diode\nDiode Schottky 20V 1A Surface Mount SOD-123FL"
 			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "MBR120VLSFT1G"
+			(at 146.558 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DK" "MBR120VLSFT1GOSCT-ND"
+			(at 146.558 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)

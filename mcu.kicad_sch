@@ -3948,10 +3948,6 @@
 		(uuid "16f415b1-e34d-4acd-84c2-0b367781c53d")
 	)
 	(no_connect
-		(at 222.25 175.26)
-		(uuid "2d375d21-e2be-4740-a188-786ea25149e6")
-	)
-	(no_connect
 		(at 265.43 172.72)
 		(uuid "2fa40e27-9ab0-4ea2-ab2f-1ff719e22b41")
 	)
@@ -4849,6 +4845,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 175.26) (xy 243.84 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2e9490-4235-4dfe-8a3b-d9950ebc4d9c")
+	)
+	(wire
+		(pts
 			(xy 179.07 97.79) (xy 173.99 97.79)
 		)
 		(stroke
@@ -5296,6 +5302,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b212964-89eb-4fdf-b316-f7083a947137")
+	)
+	(label "DISP_EN"
+		(at 243.84 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54de12d8-81a1-40b4-aa71-a248887601cc")
 	)
 	(label "GND"
 		(at 167.64 248.92 180)
@@ -6558,7 +6574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Loriques:USB_C_Receptacle_GCT_USB4105-xx-A"
+		(property "Footprint" "Loriques:CONN_12402032E202A_AMP"
 			(at 276.86 157.48 0)
 			(effects
 				(font
@@ -6567,7 +6583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2614/C12402032-3.pdf"
 			(at 278.13 134.62 0)
 			(effects
 				(font
@@ -6585,7 +6601,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "2073-USB4105-GF-ACT-ND"
+		(property "DK" "664-12402032E202ACT-ND"
 			(at 280.67 157.48 0)
 			(effects
 				(font
@@ -6594,7 +6610,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "USB4105-GF-A"
+		(property "PARTNO" "12402032E202A"
 			(at 280.67 157.48 0)
 			(effects
 				(font
