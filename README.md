@@ -4,6 +4,7 @@ Loriques is a solar powered Meshtastic LoRa gateway. *Warning: Loriques is very 
 
 ![](doc/render_revA.png)
 
+- Designed to work with a small 6V solar panel. Like the [Voltaic 6 Watt Panel](https://voltaicsystems.com/6-watt-panel/)
 - [EBYTE E22-900M30S](https://www.cdebyte.com/products/E22-900M30S/3) 30dBm LoRa tranciever
 - ESP32S3 WiFi and BLE SoC
 - OLED Display
